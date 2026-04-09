@@ -25,6 +25,7 @@
   /* ── Date helpers ─────────────────────────────────────────────── */
   const MIN_YEAR = -3000;
   const MAX_YEAR = 2026;
+  const YEAR_SPAN = MAX_YEAR - MIN_YEAR;
 
   function fmtYear(y) {
     if (y <= 0) return `${Math.abs(y)} BCE`;
@@ -39,15 +40,12 @@
   let rangeStart = MIN_YEAR;
   let rangeEnd = MAX_YEAR;
   let playing = false;
-  let playSpeed = 1;         // years per tick
+  let playSpeed = 10;
   let playInterval = null;
-  const PLAY_SPEEDS = [1, 5, 10, 25, 50, 100];
-  let speedIdx = 0;
+  const PLAY_SPEEDS = [5, 10, 25, 50, 100, 200];
+  let speedIdx = 1;
 
   /* ── DOM refs ─────────────────────────────────────────────────── */
-  const $rangeStart   = document.getElementById("range-start");
-  const $rangeEnd     = document.getElementById("range-end");
-  const $highlight    = document.getElementById("range-highlight");
   const $readoutStart = document.getElementById("readout-start");
   const $readoutEnd   = document.getElementById("readout-end");
   const $countNum     = document.getElementById("count-num");
@@ -56,6 +54,115 @@
   const $detailPanel  = document.getElementById("detail-panel");
   const $casualtySlider = document.getElementById("casualty-slider");
   const $casualtyLabel  = document.getElementById("casualty-label");
+
+  /* ── Custom dual-thumb slider ─────────────────────────────────── */
+  const $track      = document.getElementById("timeline-track");
+  const $thumbStart = document.getElementById("thumb-start");
+  const $thumbEnd   = document.getElementById("thumb-end");
+  const $highlight  = document.getElementById("range-highlight");
+  let dragging = null; // "start" | "end" | "range" | null
+  let dragStartX = 0;
+  let dragStartVal = 0;
+  let dragEndVal = 0;
+
+  function yearToPercent(y) { return ((y - MIN_YEAR) / YEAR_SPAN) * 100; }
+  function percentToYear(p) { return Math.round(MIN_YEAR + (p / 100) * YEAR_SPAN); }
+
+  function updateSliderUI() {
+    const pStart = yearToPercent(rangeStart);
+    const pEnd = yearToPercent(rangeEnd);
+    $thumbStart.style.left = `${pStart}%`;
+    $thumbEnd.style.left = `${pEnd}%`;
+    $highlight.style.left = `${pStart}%`;
+    $highlight.style.width = `${pEnd - pStart}%`;
+    $readoutStart.textContent = fmtYear(rangeStart);
+    $readoutEnd.textContent = fmtYear(rangeEnd);
+  }
+
+  function getTrackX(e) {
+    const rect = $track.getBoundingClientRect();
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    return Math.max(0, Math.min(100, ((clientX - rect.left) / rect.width) * 100));
+  }
+
+  function onPointerDown(e) {
+    e.preventDefault();
+    const pct = getTrackX(e);
+    const pStart = yearToPercent(rangeStart);
+    const pEnd = yearToPercent(rangeEnd);
+    const distStart = Math.abs(pct - pStart);
+    const distEnd = Math.abs(pct - pEnd);
+
+    // If clicking between thumbs, drag the whole range
+    if (pct > pStart + 2 && pct < pEnd - 2 && distStart > 3 && distEnd > 3) {
+      dragging = "range";
+      dragStartX = pct;
+      dragStartVal = rangeStart;
+      dragEndVal = rangeEnd;
+    } else if (distStart <= distEnd) {
+      dragging = "start";
+    } else {
+      dragging = "end";
+    }
+
+    onPointerMove(e);
+    document.addEventListener("mousemove", onPointerMove);
+    document.addEventListener("mouseup", onPointerUp);
+    document.addEventListener("touchmove", onPointerMove, { passive: false });
+    document.addEventListener("touchend", onPointerUp);
+  }
+
+  function onPointerMove(e) {
+    if (!dragging) return;
+    e.preventDefault();
+    const pct = getTrackX(e);
+
+    if (dragging === "start") {
+      rangeStart = Math.min(percentToYear(pct), rangeEnd - 10);
+    } else if (dragging === "end") {
+      rangeEnd = Math.max(percentToYear(pct), rangeStart + 10);
+    } else if (dragging === "range") {
+      const delta = percentToYear(pct) - percentToYear(dragStartX);
+      let newStart = dragStartVal + delta;
+      let newEnd = dragEndVal + delta;
+      if (newStart < MIN_YEAR) { newEnd += MIN_YEAR - newStart; newStart = MIN_YEAR; }
+      if (newEnd > MAX_YEAR) { newStart -= newEnd - MAX_YEAR; newEnd = MAX_YEAR; }
+      rangeStart = Math.max(MIN_YEAR, newStart);
+      rangeEnd = Math.min(MAX_YEAR, newEnd);
+    }
+
+    updateSliderUI();
+    clearEraActive();
+    applyFilters();
+  }
+
+  function onPointerUp() {
+    dragging = null;
+    document.removeEventListener("mousemove", onPointerMove);
+    document.removeEventListener("mouseup", onPointerUp);
+    document.removeEventListener("touchmove", onPointerMove);
+    document.removeEventListener("touchend", onPointerUp);
+  }
+
+  $track.addEventListener("mousedown", onPointerDown);
+  $track.addEventListener("touchstart", onPointerDown, { passive: false });
+
+  // Also handle thumb-specific drags
+  $thumbStart.addEventListener("mousedown", (e) => { e.stopPropagation(); dragging = "start"; onPointerDown(e); });
+  $thumbEnd.addEventListener("mousedown", (e) => { e.stopPropagation(); dragging = "end"; onPointerDown(e); });
+
+  function initSlider() {
+    rangeStart = MIN_YEAR;
+    rangeEnd = MAX_YEAR;
+    updateSliderUI();
+    buildTimelineLabels();
+  }
+
+  function buildTimelineLabels() {
+    const $labels = document.getElementById("timeline-labels");
+    const ticks = [-3000, -2000, -1000, 0, 500, 1000, 1500, 1800, 1900, 2000];
+    $labels.innerHTML = ticks.map((y) => `<span>${fmtYear(y)}</span>`).join("");
+  }
 
   /* ── Map setup ────────────────────────────────────────────────── */
   const map = new maplibregl.Map({
@@ -93,45 +200,6 @@
   });
 
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
-
-  /* ── Init timeline sliders ────────────────────────────────────── */
-  function initSliders() {
-    [$rangeStart, $rangeEnd].forEach((el) => {
-      el.min = MIN_YEAR;
-      el.max = MAX_YEAR;
-    });
-    $rangeStart.value = MIN_YEAR;
-    $rangeEnd.value = MAX_YEAR;
-    updateReadout();
-    buildTimelineLabels();
-  }
-
-  function buildTimelineLabels() {
-    const $labels = document.getElementById("timeline-labels");
-    const ticks = [-3000, -2000, -1000, 0, 500, 1000, 1500, 1800, 1900, 2000];
-    $labels.innerHTML = ticks.map((y) => `<span>${fmtYear(y)}</span>`).join("");
-  }
-
-  function updateReadout() {
-    rangeStart = +$rangeStart.value;
-    rangeEnd = +$rangeEnd.value;
-    // Enforce start < end
-    if (rangeStart > rangeEnd) {
-      if (this === $rangeStart) { $rangeStart.value = rangeEnd; rangeStart = rangeEnd; }
-      else { $rangeEnd.value = rangeStart; rangeEnd = rangeStart; }
-    }
-    $readoutStart.textContent = fmtYear(rangeStart);
-    $readoutEnd.textContent = fmtYear(rangeEnd);
-    updateHighlight();
-  }
-
-  function updateHighlight() {
-    const total = MAX_YEAR - MIN_YEAR;
-    const left = ((rangeStart - MIN_YEAR) / total) * 100;
-    const right = ((rangeEnd - MIN_YEAR) / total) * 100;
-    $highlight.style.left = `${left}%`;
-    $highlight.style.width = `${right - left}%`;
-  }
 
   /* ── Filter chips ─────────────────────────────────────────────── */
   function buildTypeFilters() {
@@ -174,9 +242,9 @@
     btn.addEventListener("click", () => {
       document.querySelectorAll("#era-presets button").forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
-      $rangeStart.value = btn.dataset.start;
-      $rangeEnd.value = btn.dataset.end;
-      updateReadout();
+      rangeStart = +btn.dataset.start;
+      rangeEnd = +btn.dataset.end;
+      updateSliderUI();
       applyFilters();
     });
   });
@@ -187,20 +255,32 @@
     $playBtn.classList.toggle("playing", playing);
     $playBtn.innerHTML = playing ? "&#10074;&#10074;" : "&#9654;";
     if (playing) {
+      // Use a moving 100-year window
+      const windowSize = 100;
+      // If showing all time, start from the beginning with a window
+      if (rangeEnd - rangeStart > 1000) {
+        rangeStart = MIN_YEAR;
+        rangeEnd = MIN_YEAR + windowSize;
+        updateSliderUI();
+        applyFilters();
+      }
       // If at the end, reset
-      if (+$rangeStart.value >= MAX_YEAR - 50) {
-        $rangeStart.value = MIN_YEAR;
-        $rangeEnd.value = MIN_YEAR + 200;
+      if (rangeEnd >= MAX_YEAR - 20) {
+        rangeStart = MIN_YEAR;
+        rangeEnd = MIN_YEAR + windowSize;
       }
       playInterval = setInterval(() => {
-        let s = +$rangeStart.value + playSpeed;
-        let e = +$rangeEnd.value + playSpeed;
-        if (e > MAX_YEAR) { e = MAX_YEAR; s = Math.min(s, e); togglePlay(); }
-        $rangeStart.value = s;
-        $rangeEnd.value = e;
-        updateReadout();
+        rangeStart += playSpeed;
+        rangeEnd += playSpeed;
+        if (rangeEnd >= MAX_YEAR) {
+          rangeEnd = MAX_YEAR;
+          rangeStart = MAX_YEAR - windowSize;
+          togglePlay(); // stop
+        }
+        updateSliderUI();
+        clearEraActive();
         applyFilters();
-      }, 60);
+      }, 50);
     } else {
       clearInterval(playInterval);
     }
@@ -217,7 +297,6 @@
   /* ── Detail panel ─────────────────────────────────────────────── */
   function showDetail(ev) {
     $detailPanel.classList.remove("hidden");
-    // Hide era presets when detail is open
     document.getElementById("era-presets").style.display = "none";
 
     document.getElementById("detail-name").textContent = ev.canonical_name;
@@ -289,19 +368,15 @@
   }
 
   function casualtyRadius(cas) {
-    if (cas == null || cas <= 0) return 5;
-    // Log scale: 1k→6, 10k→8, 100k→12, 1M→16, 10M→22
-    return Math.min(5 + Math.log10(cas) * 2.8, 28);
+    if (cas == null || cas <= 0) return 6;
+    return Math.min(6 + Math.log10(cas) * 3, 32);
   }
 
   /* ── Filter logic ─────────────────────────────────────────────── */
   function applyFilters() {
     const filtered = allEvents.filter((ev) => {
-      // Time window: event overlaps with [rangeStart, rangeEnd]
       if (ev.end_date < rangeStart || ev.start_date > rangeEnd) return false;
-      // Type
       if (!activeTypes.has(ev.conflict_type)) return false;
-      // Casualties
       if (minCasualties > 0) {
         const cas = ev.casualties_high || ev.casualties_low || 0;
         if (cas < minCasualties) return false;
@@ -326,17 +401,17 @@
       data: filteredGeoJSON,
     });
 
-    // Heatmap layer — visible at low zoom
+    // Heatmap layer — always visible, fades at high zoom
     map.addLayer({
       id: "conflicts-heat",
       type: "heatmap",
       source: "conflicts",
-      maxzoom: 7,
+      maxzoom: 9,
       paint: {
         "heatmap-weight": [
           "interpolate", ["linear"],
-          ["coalesce", ["get", "cas_high"], 1000],
-          0, 0.1,
+          ["coalesce", ["get", "cas_high"], 5000],
+          0, 0.15,
           1000, 0.3,
           10000, 0.5,
           100000, 0.8,
@@ -344,70 +419,83 @@
         ],
         "heatmap-intensity": [
           "interpolate", ["linear"], ["zoom"],
-          1, 0.6,
-          5, 1.2,
-          7, 1.5,
+          1, 0.8,
+          3, 1.0,
+          5, 1.4,
+          8, 1.8,
         ],
         "heatmap-color": [
           "interpolate", ["linear"], ["heatmap-density"],
           0,    "rgba(0, 0, 0, 0)",
-          0.15, "rgba(89, 40, 90, 0.4)",
-          0.3,  "rgba(158, 40, 80, 0.55)",
-          0.5,  "rgba(213, 60, 70, 0.65)",
-          0.7,  "rgba(240, 120, 50, 0.75)",
-          0.9,  "rgba(255, 200, 50, 0.85)",
-          1,    "rgba(255, 255, 200, 0.95)",
+          0.1,  "rgba(89, 40, 90, 0.35)",
+          0.25, "rgba(158, 40, 80, 0.5)",
+          0.4,  "rgba(213, 60, 70, 0.6)",
+          0.6,  "rgba(240, 120, 50, 0.7)",
+          0.8,  "rgba(255, 180, 50, 0.85)",
+          1,    "rgba(255, 255, 180, 0.95)",
         ],
         "heatmap-radius": [
           "interpolate", ["linear"], ["zoom"],
-          1, 15,
-          3, 25,
-          5, 40,
-          7, 55,
+          1, 20,
+          3, 30,
+          5, 45,
+          7, 60,
+          9, 80,
         ],
         "heatmap-opacity": [
           "interpolate", ["linear"], ["zoom"],
-          5, 0.9,
-          7, 0,
+          6, 0.85,
+          9, 0,
         ],
       },
     });
 
-    // Circle layer — visible at higher zoom
+    // Circle layer — visible from zoom 2, fully opaque by zoom 4
     map.addLayer({
       id: "conflicts-circle",
       type: "circle",
       source: "conflicts",
-      minzoom: 4,
+      minzoom: 2,
       paint: {
         "circle-radius": [
           "interpolate", ["linear"], ["zoom"],
-          4, ["*", ["get", "radius"], 0.5],
-          8, ["*", ["get", "radius"], 1],
-          12, ["*", ["get", "radius"], 1.5],
+          2, ["*", ["get", "radius"], 0.6],
+          4, ["*", ["get", "radius"], 0.8],
+          8, ["*", ["get", "radius"], 1.2],
+          12, ["*", ["get", "radius"], 1.8],
         ],
         "circle-color": ["get", "colour"],
         "circle-opacity": [
           "interpolate", ["linear"], ["zoom"],
-          4, 0,
-          5.5, 0.75,
-          8, 0.85,
+          2, 0.6,
+          4, 0.8,
+          8, 0.9,
         ],
-        "circle-stroke-width": 1,
-        "circle-stroke-color": "rgba(255,255,255,0.25)",
-        "circle-blur": 0.15,
+        "circle-stroke-width": [
+          "interpolate", ["linear"], ["zoom"],
+          2, 0.5,
+          6, 1,
+          10, 1.5,
+        ],
+        "circle-stroke-color": "rgba(255,255,255,0.35)",
+        "circle-blur": 0.1,
       },
     });
 
-    // Symbol layer for labels at high zoom
+    // Symbol layer for labels at higher zoom
     map.addLayer({
       id: "conflicts-label",
       type: "symbol",
       source: "conflicts",
-      minzoom: 6,
+      minzoom: 5,
       layout: {
         "text-field": ["get", "name"],
-        "text-size": 11,
+        "text-size": [
+          "interpolate", ["linear"], ["zoom"],
+          5, 9,
+          8, 11,
+          12, 13,
+        ],
         "text-offset": [0, 1.4],
         "text-anchor": "top",
         "text-max-width": 12,
@@ -419,8 +507,8 @@
         "text-halo-width": 1.5,
         "text-opacity": [
           "interpolate", ["linear"], ["zoom"],
-          6, 0,
-          7, 1,
+          5, 0,
+          6, 1,
         ],
       },
     });
@@ -451,25 +539,13 @@
         : "unknown";
       popup
         .setLngLat(f.geometry.coordinates)
-        .setHTML(`<strong>${f.properties.name}</strong><br><span style="color:${f.properties.colour}">${f.properties.type}</span> &middot; ${cas} est. casualties`)
+        .setHTML(`<strong>${f.properties.name}</strong><br><span style="color:${f.properties.colour}">${f.properties.type}</span> · ${cas} est. casualties`)
         .addTo(map);
     });
     map.on("mouseleave", "conflicts-circle", () => popup.remove());
 
     applyFilters();
   }
-
-  /* ── Timeline input handlers ──────────────────────────────────── */
-  $rangeStart.addEventListener("input", function () {
-    updateReadout.call(this);
-    clearEraActive();
-    applyFilters();
-  });
-  $rangeEnd.addEventListener("input", function () {
-    updateReadout.call(this);
-    clearEraActive();
-    applyFilters();
-  });
 
   function clearEraActive() {
     document.querySelectorAll("#era-presets button").forEach((b) => b.classList.remove("active"));
@@ -482,17 +558,17 @@
     switch (e.key) {
       case "ArrowLeft":
         e.preventDefault();
-        $rangeStart.value = Math.max(MIN_YEAR, +$rangeStart.value - step);
-        $rangeEnd.value = Math.max(MIN_YEAR, +$rangeEnd.value - step);
-        updateReadout();
+        rangeStart = Math.max(MIN_YEAR, rangeStart - step);
+        rangeEnd = Math.max(MIN_YEAR + 10, rangeEnd - step);
+        updateSliderUI();
         clearEraActive();
         applyFilters();
         break;
       case "ArrowRight":
         e.preventDefault();
-        $rangeStart.value = Math.min(MAX_YEAR, +$rangeStart.value + step);
-        $rangeEnd.value = Math.min(MAX_YEAR, +$rangeEnd.value + step);
-        updateReadout();
+        rangeStart = Math.min(MAX_YEAR - 10, rangeStart + step);
+        rangeEnd = Math.min(MAX_YEAR, rangeEnd + step);
+        updateSliderUI();
         clearEraActive();
         applyFilters();
         break;
@@ -503,7 +579,6 @@
     }
   });
 
-  /* ── Escape closes detail panel ──────────────────────────────── */
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
       $detailPanel.classList.add("hidden");
@@ -512,7 +587,7 @@
   });
 
   /* ── Boot ─────────────────────────────────────────────────────── */
-  initSliders();
+  initSlider();
   buildTypeFilters();
   map.on("load", loadData);
 })();

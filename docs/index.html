@@ -70,12 +70,13 @@
   <footer id="timeline">
     <div id="timeline-controls">
       <button id="play-btn" aria-label="Play / Pause" title="Play / Pause (Space)">&#9654;</button>
-      <span id="speed-label" title="Playback speed">1&times;</span>
+      <span id="speed-label" title="Playback speed">10&times;</span>
     </div>
     <div id="timeline-track">
+      <div id="track-bg"></div>
       <div id="range-highlight"></div>
-      <input type="range" id="range-start" />
-      <input type="range" id="range-end" />
+      <div id="thumb-start" class="thumb" aria-label="Range start"></div>
+      <div id="thumb-end" class="thumb" aria-label="Range end"></div>
       <div id="timeline-labels"></div>
     </div>
     <div id="timeline-readout">

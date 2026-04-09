@@ -325,70 +325,49 @@ button { font-family: inherit; cursor: pointer; }
   min-width: 200px;
 }
 
-/* Dual-range sliders */
-#timeline-track input[type="range"] {
-  -webkit-appearance: none;
-  appearance: none;
+/* Custom dual-thumb slider */
+#track-bg {
   position: absolute;
-  top: 8px;
-  left: 0;
-  width: 100%;
-  height: 6px;
-  background: transparent;
-  pointer-events: none;
-  z-index: 2;
-}
-#timeline-track input[type="range"]::-webkit-slider-runnable-track {
-  height: 6px;
-  background: transparent;
-}
-#timeline-track input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: var(--accent);
-  border: 2px solid #fff;
-  cursor: grab;
-  pointer-events: all;
-  margin-top: -5px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-}
-#timeline-track input[type="range"]::-moz-range-thumb {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: var(--accent);
-  border: 2px solid #fff;
-  cursor: grab;
-  pointer-events: all;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
-}
-
-/* Shared track background */
-#timeline-track::before {
-  content: "";
-  position: absolute;
-  top: 11px;
+  top: 14px;
   left: 0;
   right: 0;
   height: 4px;
   border-radius: 2px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.12);
   z-index: 1;
 }
 
-/* Highlight between thumbs */
 #range-highlight {
   position: absolute;
-  top: 11px;
+  top: 14px;
   height: 4px;
   border-radius: 2px;
   background: var(--accent);
-  opacity: 0.5;
-  z-index: 1;
+  opacity: 0.6;
+  z-index: 2;
   pointer-events: none;
+}
+
+.thumb {
+  position: absolute;
+  top: 7px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid #fff;
+  cursor: grab;
+  z-index: 3;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  transition: transform 0.08s;
+}
+.thumb:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+.thumb:active {
+  cursor: grabbing;
+  transform: translateX(-50%) scale(1.15);
 }
 
 /* Tick labels */
@@ -473,6 +452,40 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--text-muted);
   background: var(--bg);
   z-index: 100;
+}
+
+/* ── MapLibre popup (tooltip) — dark theme ─────────────────────── */
+.maplibregl-popup-content {
+  background: var(--surface-solid) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  max-width: 280px;
+}
+.maplibregl-popup-content strong {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.maplibregl-popup-tip {
+  border-top-color: var(--surface-solid) !important;
+}
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+  border-top-color: var(--surface-solid) !important;
+}
+.maplibregl-popup-anchor-top .maplibregl-popup-tip {
+  border-bottom-color: var(--surface-solid) !important;
+}
+.maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: var(--surface-solid) !important;
+}
+.maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: var(--surface-solid) !important;
 }
 
 /* ── Responsive ─────────────────────────────────────────────────── */
