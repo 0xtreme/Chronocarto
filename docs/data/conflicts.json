@@ -1,0 +1,6379 @@
+[
+  {
+    "event_id": "a8dc691d-7f7d-40e7-a0c9-7032dc82c0cd",
+    "canonical_name": "Unification Wars of Egypt",
+    "aliases": [],
+    "start_date": -3100,
+    "end_date": -3000,
+    "date_uncertainty": "disputed",
+    "latitude": 25.7,
+    "longitude": 32.6,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Upper Egypt (Narmer)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Lower Egypt",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "The legendary unification of Upper and Lower Egypt under Narmer (Menes), establishing the First Dynasty and one of history's earliest states.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.4
+  },
+  {
+    "event_id": "35d06e7b-03f3-49b7-a685-5d6dd1c2dc1f",
+    "canonical_name": "Akkadian conquest of Sumer",
+    "aliases": [],
+    "start_date": -2334,
+    "end_date": -2279,
+    "date_uncertainty": "approximate",
+    "latitude": 32.5,
+    "longitude": 44.4,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Akkadian Empire (Sargon)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Sumerian city-states",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Sargon of Akkad conquered the Sumerian city-states, creating history's first known empire stretching from the Persian Gulf to the Mediterranean.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "7985c359-d5a8-455a-a769-7cf86bd9412b",
+    "canonical_name": "Battle of Megiddo",
+    "aliases": [],
+    "start_date": -1457,
+    "end_date": -1457,
+    "date_uncertainty": "approximate",
+    "latitude": 32.585,
+    "longitude": 35.184,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Egypt (Thutmose III)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Canaanite coalition",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 5000,
+    "casualties_high": 15000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Egyptian pharaoh Thutmose III defeated a Canaanite coalition near Megiddo, establishing Egyptian hegemony over the Levant. One of the earliest battles with detailed records.",
+    "tags": [
+      "succession",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "343c1546-a6b3-439b-9f1a-fcadaab58ebc",
+    "canonical_name": "Battle of Kadesh",
+    "aliases": [],
+    "start_date": -1274,
+    "end_date": -1274,
+    "date_uncertainty": "approximate",
+    "latitude": 34.571,
+    "longitude": 36.515,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Egypt (Ramesses II)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Hittite Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 5000,
+    "casualties_high": 20000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Largest chariot battle in history between Egypt and the Hittites. Ended in tactical stalemate and the first known international peace treaty.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "e8381cef-55a0-410f-bdf2-fde76809640a",
+    "canonical_name": "Trojan War",
+    "aliases": [],
+    "start_date": -1260,
+    "end_date": -1180,
+    "date_uncertainty": "disputed",
+    "latitude": 39.957,
+    "longitude": 26.239,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Mycenaean Greeks",
+        "role": "aggressor"
+      },
+      {
+        "name": "Troy",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Semi-legendary conflict between Mycenaean Greeks and the city of Troy. Archaeological evidence at Hisarlik suggests a historical basis for the Homeric narrative.",
+    "tags": [
+      "succession",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.4
+  },
+  {
+    "event_id": "128389a4-1f04-40b9-8b2b-14d4c77b8bed",
+    "canonical_name": "Sea Peoples invasions",
+    "aliases": [],
+    "start_date": -1200,
+    "end_date": -1150,
+    "date_uncertainty": "disputed",
+    "latitude": 34,
+    "longitude": 33,
+    "location_precision": "region",
+    "conflict_type": "raid",
+    "parties": [
+      {
+        "name": "Sea Peoples (coalition)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Egypt / Hittites / Levantine states",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Mysterious coalition of maritime raiders attacked civilisations across the Eastern Mediterranean, contributing to the Bronze Age Collapse that ended multiple empires.",
+    "tags": [
+      "migration",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.4
+  },
+  {
+    "event_id": "76233373-3ae3-408e-a477-df14747e9927",
+    "canonical_name": "Assyrian conquest of Israel",
+    "aliases": [],
+    "start_date": -722,
+    "end_date": -720,
+    "date_uncertainty": "approximate",
+    "latitude": 32.217,
+    "longitude": 35.254,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Neo-Assyrian Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "Kingdom of Israel",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Assyria under Shalmaneser V and Sargon II conquered the northern Kingdom of Israel, deporting its population. One of history's earliest documented ethnic cleansings.",
+    "tags": [
+      "imperial",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "0077bca9-9453-4c39-b025-dc264e5e8dd6",
+    "canonical_name": "Destruction of Assyria",
+    "aliases": [],
+    "start_date": -626,
+    "end_date": -609,
+    "date_uncertainty": "approximate",
+    "latitude": 36.36,
+    "longitude": 43.15,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Babylonia / Media",
+        "role": "aggressor"
+      },
+      {
+        "name": "Neo-Assyrian Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Coalition of Babylonians and Medes destroyed the Neo-Assyrian Empire, sacking Nineveh in 612 BCE. One of history's most powerful empires was utterly annihilated.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "11ff52c3-44fd-41cd-9e9b-0e060987d073",
+    "canonical_name": "Babylonian conquest of Judah",
+    "aliases": [],
+    "start_date": -597,
+    "end_date": -586,
+    "date_uncertainty": "approximate",
+    "latitude": 31.774,
+    "longitude": 35.227,
+    "location_precision": "point",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Neo-Babylonian Empire (Nebuchadnezzar II)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Kingdom of Judah",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Nebuchadnezzar II conquered Jerusalem, destroyed Solomon's Temple, and deported the Jewish elite to Babylon — the Babylonian Captivity that profoundly shaped Judaism.",
+    "tags": [
+      "imperial",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "74d3ac7b-b6a5-4930-b90b-99bd81476ef7",
+    "canonical_name": "Battle of Marathon",
+    "aliases": [],
+    "start_date": -490,
+    "end_date": -490,
+    "date_uncertainty": "approximate",
+    "latitude": 38.117,
+    "longitude": 23.967,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Athens",
+        "role": "defender"
+      },
+      {
+        "name": "Achaemenid Persia",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 7000,
+    "casualties_high": 10000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Athenian hoplites repelled a Persian invasion force on the plain of Marathon, preserving Greek independence and inspiring the legend of the marathon run.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "f7b53d52-90be-4818-b640-df7d7a8d7d1d",
+    "canonical_name": "Battle of Thermopylae",
+    "aliases": [],
+    "start_date": -480,
+    "end_date": -480,
+    "date_uncertainty": "approximate",
+    "latitude": 38.796,
+    "longitude": 22.537,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Greek alliance (Sparta)",
+        "role": "defender"
+      },
+      {
+        "name": "Achaemenid Persia (Xerxes)",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 30000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "A small Greek force led by 300 Spartans held the narrow pass at Thermopylae against Xerxes' massive army for three days before being outflanked.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ca47f868-663a-4e33-a7fa-674c7baab645",
+    "canonical_name": "Battle of Salamis",
+    "aliases": [],
+    "start_date": -480,
+    "end_date": -480,
+    "date_uncertainty": "approximate",
+    "latitude": 37.947,
+    "longitude": 23.583,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Greek alliance",
+        "role": "defender"
+      },
+      {
+        "name": "Achaemenid Persia",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 40000,
+    "casualties_high": 60000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Greek fleet under Themistocles destroyed the Persian navy in the straits of Salamis, turning the tide of the Greco-Persian Wars.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ec570a31-8fc3-4506-9383-e3d863f91794",
+    "canonical_name": "Peloponnesian War",
+    "aliases": [],
+    "start_date": -431,
+    "end_date": -404,
+    "date_uncertainty": "approximate",
+    "latitude": 37.971,
+    "longitude": 23.726,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Delian League (Athens)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Peloponnesian League (Sparta)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 150000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Three-decade war between Athens and Sparta that devastated Greece. Ended Athenian imperial ambitions and weakened the Greek city-states.",
+    "tags": [
+      "imperial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "2172593e-3b80-459f-8a53-812da3659ea1",
+    "canonical_name": "Battle of Issus",
+    "aliases": [],
+    "start_date": -333,
+    "end_date": -333,
+    "date_uncertainty": "approximate",
+    "latitude": 36.83,
+    "longitude": 36.18,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Macedon (Alexander)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Achaemenid Persia (Darius III)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 40000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Alexander the Great's second major victory over Darius III in a narrow coastal plain in modern Turkey. Captured the Persian royal family.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "df2df3e4-9525-46ca-b0f4-6a3efbcc0682",
+    "canonical_name": "Siege of Tyre",
+    "aliases": [],
+    "start_date": -332,
+    "end_date": -332,
+    "date_uncertainty": "approximate",
+    "latitude": 33.27,
+    "longitude": 35.2,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Macedon (Alexander)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Tyre",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 8000,
+    "casualties_high": 10000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Alexander built a causeway to the island fortress of Tyre and captured it after a seven-month siege. 6,000 defenders were killed, 30,000 enslaved.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "46936e89-60aa-43e3-b9af-9761f801e221",
+    "canonical_name": "Battle of Gaugamela",
+    "aliases": [],
+    "start_date": -331,
+    "end_date": -331,
+    "date_uncertainty": "approximate",
+    "latitude": 36.557,
+    "longitude": 43.26,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Macedon (Alexander)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Achaemenid Persia (Darius III)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Alexander the Great's decisive victory over the Persian Empire near modern Mosul. Ended the Achaemenid dynasty and opened the East to Hellenistic civilization.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "9a50759a-51c7-4aaa-87db-6edff31f3eb7",
+    "canonical_name": "Battle of Hydaspes",
+    "aliases": [],
+    "start_date": -326,
+    "end_date": -326,
+    "date_uncertainty": "approximate",
+    "latitude": 32.726,
+    "longitude": 73.598,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Macedon (Alexander)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Kingdom of Paurava (Porus)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 12000,
+    "casualties_high": 23000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Alexander's easternmost major battle, fought against King Porus on the banks of the Jhelum River in modern Pakistan. Marked the limit of Macedonian expansion.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "28475ce5-a04a-426f-ba34-75c959c22bd7",
+    "canonical_name": "Kalinga War",
+    "aliases": [],
+    "start_date": -261,
+    "end_date": -261,
+    "date_uncertainty": "approximate",
+    "latitude": 20.3,
+    "longitude": 85.8,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Maurya Empire (Ashoka)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Kalinga",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 250000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Emperor Ashoka's bloody conquest of Kalinga caused such suffering that it famously converted him to Buddhism and non-violence, transforming the Mauryan Empire.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "f60c549a-388d-4d94-b7e0-5edb367824ae",
+    "canonical_name": "Warring States period (China)",
+    "aliases": [],
+    "start_date": -475,
+    "end_date": -221,
+    "date_uncertainty": "approximate",
+    "latitude": 34.3,
+    "longitude": 108.9,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Seven warring states",
+        "role": "aggressor"
+      },
+      {
+        "name": "Various",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000000,
+    "casualties_high": 5000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Two and a half centuries of warfare among Chinese kingdoms, ending with Qin's unification of China. Produced Sun Tzu's Art of War and vast casualty figures.",
+    "tags": [
+      "succession",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "601d3bef-0fb1-4b9f-8337-2d09a323818f",
+    "canonical_name": "First Punic War",
+    "aliases": [],
+    "start_date": -264,
+    "end_date": -241,
+    "date_uncertainty": "approximate",
+    "latitude": 37.5,
+    "longitude": 13.3,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Roman Republic",
+        "role": "aggressor"
+      },
+      {
+        "name": "Carthage",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 200000,
+    "casualties_high": 400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Rome and Carthage fought for control of Sicily in a war dominated by naval battles. Rome built its first major fleet and won control of the western Mediterranean.",
+    "tags": [
+      "imperial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6054b24e-e0be-4f72-9163-cd9f7fd83359",
+    "canonical_name": "Battle of Cannae",
+    "aliases": [],
+    "start_date": -216,
+    "end_date": -216,
+    "date_uncertainty": "approximate",
+    "latitude": 41.305,
+    "longitude": 16.132,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Carthage (Hannibal)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Roman Republic",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 70000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Hannibal's double envelopment annihilated a Roman army of 80,000 men. Considered one of the greatest tactical masterpieces in military history.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "bb400580-490f-403f-a4bb-15d0d60c54e4",
+    "canonical_name": "Battle of Zama",
+    "aliases": [],
+    "start_date": -202,
+    "end_date": -202,
+    "date_uncertainty": "approximate",
+    "latitude": 36.2,
+    "longitude": 8.1,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Roman Republic (Scipio Africanus)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Carthage (Hannibal)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 30000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Scipio Africanus defeated Hannibal in North Africa, ending the Second Punic War. Rome became the dominant power of the western Mediterranean.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ed666d57-2fab-4501-b139-b014ee783e1b",
+    "canonical_name": "Siege of Carthage",
+    "aliases": [],
+    "start_date": -149,
+    "end_date": -146,
+    "date_uncertainty": "approximate",
+    "latitude": 36.853,
+    "longitude": 10.323,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Roman Republic",
+        "role": "aggressor"
+      },
+      {
+        "name": "Carthage",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 150000,
+    "casualties_high": 500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Rome besieged and completely destroyed Carthage in the Third Punic War. The city was razed, population killed or enslaved, ending Carthaginian civilization.",
+    "tags": [
+      "imperial",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "b301972b-bcb1-4bdf-b434-d2996ca4d2e7",
+    "canonical_name": "Gallic Wars",
+    "aliases": [],
+    "start_date": -58,
+    "end_date": -50,
+    "date_uncertainty": "approximate",
+    "latitude": 47,
+    "longitude": 2,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Roman Republic (Caesar)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Gallic tribes",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 300000,
+    "casualties_high": 1000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Julius Caesar's eight-year campaign to conquer Gaul. Ancient sources claim a million dead and another million enslaved, reshaping western Europe permanently.",
+    "tags": [
+      "imperial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "8615322f-8692-4b6e-8a5b-77cbf1ffb506",
+    "canonical_name": "Battle of Carrhae",
+    "aliases": [],
+    "start_date": -53,
+    "end_date": -53,
+    "date_uncertainty": "approximate",
+    "latitude": 36.867,
+    "longitude": 39.033,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Parthian Empire",
+        "role": "defender"
+      },
+      {
+        "name": "Roman Republic (Crassus)",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 30000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Parthian horse archers annihilated Crassus' Roman legions in the Syrian desert. Rome's worst defeat in the east and the end of the First Triumvirate.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "92387bb7-9e66-4743-8544-e317b050fd78",
+    "canonical_name": "Roman Civil War (Caesar vs Pompey)",
+    "aliases": [],
+    "start_date": -49,
+    "end_date": -45,
+    "date_uncertainty": "approximate",
+    "latitude": 41,
+    "longitude": 20,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Caesar",
+        "role": "aggressor"
+      },
+      {
+        "name": "Pompey / Senate",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Caesar crossed the Rubicon and defeated Pompey's forces across the Mediterranean. Led to Caesar's dictatorship and the end of the Roman Republic.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ab017a06-d7ca-4efc-b8ce-a540550a1da1",
+    "canonical_name": "Battle of Actium",
+    "aliases": [],
+    "start_date": -31,
+    "end_date": -31,
+    "date_uncertainty": "approximate",
+    "latitude": 38.951,
+    "longitude": 20.718,
+    "location_precision": "point",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Octavian",
+        "role": "aggressor"
+      },
+      {
+        "name": "Mark Antony & Cleopatra",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 5000,
+    "casualties_high": 10000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Naval battle that ended the Roman Republic's civil wars. Octavian's victory led to the establishment of the Roman Empire.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "92d4d969-990d-4f47-9a89-f63725e8d097",
+    "canonical_name": "Battle of Teutoburg Forest",
+    "aliases": [],
+    "start_date": 9,
+    "end_date": 9,
+    "date_uncertainty": "approximate",
+    "latitude": 52.404,
+    "longitude": 8.13,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Germanic tribes (Arminius)",
+        "role": "defender"
+      },
+      {
+        "name": "Roman Empire",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 15000,
+    "casualties_high": 20000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Germanic tribes ambushed and destroyed three Roman legions in the forest. Rome never again attempted to conquer Germany east of the Rhine.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "1e7bd6a0-c8cb-44ff-ac60-7282a56c8c6d",
+    "canonical_name": "Jewish-Roman Wars",
+    "aliases": [],
+    "start_date": 66,
+    "end_date": 135,
+    "date_uncertainty": "approximate",
+    "latitude": 31.774,
+    "longitude": 35.227,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Roman Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "Jewish rebels",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 1500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Series of revolts by Jews against Roman rule, culminating in the destruction of the Second Temple (70 CE) and the Bar Kokhba revolt. Led to the Jewish diaspora.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "51e9bc74-c2db-4ec1-a9fe-f3f7765aa30f",
+    "canonical_name": "Roman-Parthian War of Trajan",
+    "aliases": [],
+    "start_date": 115,
+    "end_date": 117,
+    "date_uncertainty": "approximate",
+    "latitude": 33.3,
+    "longitude": 44.4,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Roman Empire (Trajan)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Parthian Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 30000,
+    "casualties_high": 80000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Trajan conquered Mesopotamia, briefly pushing the Roman Empire to its greatest extent. The conquests were abandoned under Hadrian.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "9506bfd6-77e7-42a9-a128-1da9d4edda9c",
+    "canonical_name": "Wars of the Three Kingdoms (China)",
+    "aliases": [],
+    "start_date": 220,
+    "end_date": 280,
+    "date_uncertainty": "approximate",
+    "latitude": 30.6,
+    "longitude": 114.3,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Wei / Shu / Wu",
+        "role": "aggressor"
+      },
+      {
+        "name": "Various",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000000,
+    "casualties_high": 40000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "China fragmented into three competing kingdoms after the fall of the Han dynasty. One of the deadliest periods in human history, dramatised in Romance of the Three Kingdoms.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "19f7df9b-2716-43d4-bdc2-de98708ebdb9",
+    "canonical_name": "Battle of Adrianople",
+    "aliases": [],
+    "start_date": 378,
+    "end_date": 378,
+    "date_uncertainty": "approximate",
+    "latitude": 41.677,
+    "longitude": 26.556,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Visigoths",
+        "role": "aggressor"
+      },
+      {
+        "name": "Roman Empire (Valens)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 20000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Gothic cavalry annihilated a Roman army and killed Emperor Valens. Marked the beginning of the end for the Western Roman Empire.",
+    "tags": [
+      "imperial",
+      "migration"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "f9915636-bff8-43ef-b2ce-963e4b172c78",
+    "canonical_name": "Sack of Rome by Visigoths",
+    "aliases": [],
+    "start_date": 410,
+    "end_date": 410,
+    "date_uncertainty": "approximate",
+    "latitude": 41.893,
+    "longitude": 12.483,
+    "location_precision": "point",
+    "conflict_type": "raid",
+    "parties": [
+      {
+        "name": "Visigoths (Alaric I)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Western Roman Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000,
+    "casualties_high": 10000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Alaric I's Visigoths sacked Rome for the first time in 800 years, shocking the ancient world and symbolising the decline of Roman power.",
+    "tags": [
+      "imperial",
+      "migration"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c14be8d0-3e9b-467c-9449-e69c46dee6c8",
+    "canonical_name": "Battle of the Catalaunian Plains",
+    "aliases": [],
+    "start_date": 451,
+    "end_date": 451,
+    "date_uncertainty": "approximate",
+    "latitude": 48.3,
+    "longitude": 4,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Roman-Visigothic alliance",
+        "role": "defender"
+      },
+      {
+        "name": "Hunnic Empire (Attila)",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 300000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Combined Roman and Visigothic forces halted Attila the Hun's invasion of Gaul. One of the last major Roman military victories.",
+    "tags": [
+      "imperial",
+      "migration"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6b6ddfcc-e598-4c87-bb1e-00116ae7f9db",
+    "canonical_name": "Fall of the Western Roman Empire",
+    "aliases": [],
+    "start_date": 476,
+    "end_date": 476,
+    "date_uncertainty": "exact",
+    "latitude": 44.414,
+    "longitude": 12.2,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Odoacer (Germanic)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Western Roman Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Germanic chieftain Odoacer deposed the last Western Roman Emperor Romulus Augustulus in Ravenna, conventionally marking the end of antiquity.",
+    "tags": [
+      "imperial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "ecc669ba-b860-4499-afe3-65933f378ade",
+    "canonical_name": "Teotihuacan's wars of expansion",
+    "aliases": [],
+    "start_date": -100,
+    "end_date": 450,
+    "date_uncertainty": "disputed",
+    "latitude": 19.692,
+    "longitude": -98.844,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Teotihuacan",
+        "role": "aggressor"
+      },
+      {
+        "name": "Mesoamerican city-states",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "The great city of Teotihuacan dominated central Mexico through military and economic power, influencing Maya and Zapotec civilisations across Mesoamerica.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.4
+  },
+  {
+    "event_id": "7136ecba-b885-48c3-bd2f-024b7e301e52",
+    "canonical_name": "Justinian's reconquest of Italy",
+    "aliases": [],
+    "start_date": 535,
+    "end_date": 554,
+    "date_uncertainty": "approximate",
+    "latitude": 41.893,
+    "longitude": 12.483,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Byzantine Empire (Justinian)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ostrogothic Kingdom",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Emperor Justinian attempted to restore the Roman Empire by reconquering Italy from the Ostrogoths. The devastating wars depopulated the Italian peninsula.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "cfe2d4b3-bb98-49f2-a9b1-613342230ebc",
+    "canonical_name": "Arab conquest of the Levant",
+    "aliases": [],
+    "start_date": 634,
+    "end_date": 638,
+    "date_uncertainty": "approximate",
+    "latitude": 33.513,
+    "longitude": 36.293,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Rashidun Caliphate",
+        "role": "aggressor"
+      },
+      {
+        "name": "Byzantine Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Arab Muslim armies conquered Syria, Palestine, and the Levant from the Byzantine Empire, permanently changing the religious and linguistic character of the region.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "0f58d31b-8c42-4f0a-aa17-32427b49de57",
+    "canonical_name": "Arab conquest of Persia",
+    "aliases": [],
+    "start_date": 633,
+    "end_date": 654,
+    "date_uncertainty": "approximate",
+    "latitude": 32.661,
+    "longitude": 51.678,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Rashidun Caliphate",
+        "role": "aggressor"
+      },
+      {
+        "name": "Sasanian Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "The Muslim conquest ended the 400-year Sasanian Empire and brought Islam to Persia, fundamentally transforming one of the world's oldest civilizations.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "1f901cdd-9ccf-48d5-b4ca-53b9e7b9da60",
+    "canonical_name": "Arab conquest of North Africa",
+    "aliases": [],
+    "start_date": 647,
+    "end_date": 709,
+    "date_uncertainty": "approximate",
+    "latitude": 34,
+    "longitude": 9,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Umayyad Caliphate",
+        "role": "aggressor"
+      },
+      {
+        "name": "Byzantine Africa / Berber tribes",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Arab armies conquered the entirety of North Africa from the Byzantines and Berbers, Islamising and Arabising the region from Egypt to Morocco.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "2a0d93b9-0426-4a11-b44a-dedbeaf1237d",
+    "canonical_name": "Arab conquest of Iberia",
+    "aliases": [],
+    "start_date": 711,
+    "end_date": 718,
+    "date_uncertainty": "approximate",
+    "latitude": 37.4,
+    "longitude": -5,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Umayyad Caliphate",
+        "role": "aggressor"
+      },
+      {
+        "name": "Visigothic Kingdom",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Muslim armies from North Africa conquered nearly all of the Iberian Peninsula from the Visigoths, establishing Al-Andalus and beginning 700 years of Muslim presence in Spain.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "8163f2d7-97fd-41bc-ada1-02dfe538cf21",
+    "canonical_name": "Battle of Tours",
+    "aliases": [],
+    "start_date": 732,
+    "end_date": 732,
+    "date_uncertainty": "approximate",
+    "latitude": 46.811,
+    "longitude": 0.691,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Frankish Kingdom (Charles Martel)",
+        "role": "defender"
+      },
+      {
+        "name": "Umayyad Caliphate",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 30000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Frankish forces halted the northward advance of the Umayyad Caliphate into western Europe, preserving Christian dominance north of the Pyrenees.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "1dfdb5ad-e320-4fd2-8450-ce4b2df869d3",
+    "canonical_name": "Viking raids on England",
+    "aliases": [],
+    "start_date": 793,
+    "end_date": 900,
+    "date_uncertainty": "approximate",
+    "latitude": 53.5,
+    "longitude": -1.5,
+    "location_precision": "region",
+    "conflict_type": "raid",
+    "parties": [
+      {
+        "name": "Norse Vikings",
+        "role": "aggressor"
+      },
+      {
+        "name": "Anglo-Saxon kingdoms",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Norse raiders devastated monasteries and settlements across England beginning with Lindisfarne in 793, eventually establishing the Danelaw across eastern England.",
+    "tags": [
+      "resource",
+      "migration"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "536c570a-c197-4f1d-8150-5aa98b59a7e9",
+    "canonical_name": "Viking raids on Francia",
+    "aliases": [],
+    "start_date": 841,
+    "end_date": 911,
+    "date_uncertainty": "approximate",
+    "latitude": 49.443,
+    "longitude": 1.099,
+    "location_precision": "region",
+    "conflict_type": "raid",
+    "parties": [
+      {
+        "name": "Norse Vikings",
+        "role": "aggressor"
+      },
+      {
+        "name": "Frankish kingdoms",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 40000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Vikings raided deep into Francia, besieging Paris in 845 and 885-886. Ended with the establishment of Norse-ruled Normandy in 911.",
+    "tags": [
+      "resource",
+      "migration"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c435305a-3c50-4c78-b943-465f331bfde6",
+    "canonical_name": "Viking conquest of Kievan Rus",
+    "aliases": [],
+    "start_date": 862,
+    "end_date": 882,
+    "date_uncertainty": "approximate",
+    "latitude": 50.45,
+    "longitude": 30.52,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Varangians (Rurik)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Slavic tribes",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Norse Varangians established rule over Slavic populations along the Dnieper trade route, founding the Kievan Rus state that became the precursor to Russia and Ukraine.",
+    "tags": [
+      "resource",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6cbe0438-f3a2-4896-95ef-32429d8d6d7e",
+    "canonical_name": "First Crusade",
+    "aliases": [],
+    "start_date": 1096,
+    "end_date": 1099,
+    "date_uncertainty": "approximate",
+    "latitude": 31.774,
+    "longitude": 35.227,
+    "location_precision": "region",
+    "conflict_type": "religious",
+    "parties": [
+      {
+        "name": "Crusader states",
+        "role": "aggressor"
+      },
+      {
+        "name": "Seljuk Turks / Fatimid Egypt",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 300000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Western European knights captured Jerusalem and established crusader states in the Levant. The siege of Jerusalem ended in a massacre of Muslim and Jewish residents.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "71362d70-a89a-4758-91fa-94ab9b194ed4",
+    "canonical_name": "Siege of Jerusalem (First Crusade)",
+    "aliases": [],
+    "start_date": 1099,
+    "end_date": 1099,
+    "date_uncertainty": "approximate",
+    "latitude": 31.774,
+    "longitude": 35.227,
+    "location_precision": "point",
+    "conflict_type": "religious",
+    "parties": [
+      {
+        "name": "Crusaders",
+        "role": "aggressor"
+      },
+      {
+        "name": "Fatimid garrison",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 70000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Crusaders stormed Jerusalem and massacred Muslim and Jewish inhabitants. Established the Kingdom of Jerusalem, a crusader state that lasted until 1291.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a8293f78-ddf7-4989-8aa3-8d9fb90ee22a",
+    "canonical_name": "Third Crusade",
+    "aliases": [],
+    "start_date": 1189,
+    "end_date": 1192,
+    "date_uncertainty": "approximate",
+    "latitude": 32.818,
+    "longitude": 34.989,
+    "location_precision": "region",
+    "conflict_type": "religious",
+    "parties": [
+      {
+        "name": "Crusader alliance (Richard I)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ayyubid dynasty (Saladin)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Richard the Lionheart's campaign to recapture Jerusalem from Saladin. Ended with a negotiated truce granting Christian pilgrims access to Jerusalem.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "5c269c56-8aae-4ed7-b62b-b2f8b27093ef",
+    "canonical_name": "Fourth Crusade (Sack of Constantinople)",
+    "aliases": [],
+    "start_date": 1202,
+    "end_date": 1204,
+    "date_uncertainty": "approximate",
+    "latitude": 41.009,
+    "longitude": 28.98,
+    "location_precision": "point",
+    "conflict_type": "religious",
+    "parties": [
+      {
+        "name": "Crusaders / Venice",
+        "role": "aggressor"
+      },
+      {
+        "name": "Byzantine Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 5000,
+    "casualties_high": 20000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Crusaders diverted from the Holy Land to sack Constantinople, the greatest Christian city. Fatally weakened the Byzantine Empire three centuries before its fall.",
+    "tags": [
+      "religious",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "0d662cd0-f990-4618-8054-9613d558a1da",
+    "canonical_name": "Mongol unification wars",
+    "aliases": [],
+    "start_date": 1206,
+    "end_date": 1227,
+    "date_uncertainty": "approximate",
+    "latitude": 47.9,
+    "longitude": 106.9,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Mongol Empire (Genghis Khan)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Various steppe tribes / Jin Dynasty",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000000,
+    "casualties_high": 5000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Genghis Khan unified the Mongol tribes and launched devastating campaigns against northern China's Jin Dynasty and the Western Xia, beginning the largest contiguous empire in history.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "cebfdec5-b063-4320-a4cc-85311d56683e",
+    "canonical_name": "Mongol invasion of Khwarezmia",
+    "aliases": [],
+    "start_date": 1219,
+    "end_date": 1221,
+    "date_uncertainty": "approximate",
+    "latitude": 39.652,
+    "longitude": 66.96,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Mongol Empire (Genghis Khan)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Khwarezmian Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000000,
+    "casualties_high": 2000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Genghis Khan's devastating invasion of Central Asia in retaliation for the murder of Mongol envoys. Entire cities were razed and populations massacred.",
+    "tags": [
+      "imperial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "7debb754-1572-4a35-b5d8-c6255f8e0255",
+    "canonical_name": "Mongol invasion of Europe",
+    "aliases": [],
+    "start_date": 1237,
+    "end_date": 1242,
+    "date_uncertainty": "approximate",
+    "latitude": 50.45,
+    "longitude": 30.524,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Mongol Empire (Batu Khan)",
+        "role": "aggressor"
+      },
+      {
+        "name": "European kingdoms",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 2000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Mongol forces swept through Russia, Poland, and Hungary, annihilating armies at Legnica and Mohi. The invasion reshaped Eastern European politics for centuries.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "1db22c60-8531-451b-b146-5a0dc4f30240",
+    "canonical_name": "Mongol invasion of China (Yuan dynasty)",
+    "aliases": [],
+    "start_date": 1235,
+    "end_date": 1279,
+    "date_uncertainty": "approximate",
+    "latitude": 30.274,
+    "longitude": 120.155,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Mongol Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "Song Dynasty",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 25000000,
+    "casualties_high": 30000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Decades-long Mongol conquest of southern China, completing the subjugation of all China under Kublai Khan's Yuan dynasty. One of the deadliest wars in history.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "2911141b-9a99-40cd-834a-6cdec2dd82d4",
+    "canonical_name": "Mongol sack of Baghdad",
+    "aliases": [],
+    "start_date": 1258,
+    "end_date": 1258,
+    "date_uncertainty": "approximate",
+    "latitude": 33.315,
+    "longitude": 44.366,
+    "location_precision": "point",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Mongol Empire (Hulagu Khan)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Abbasid Caliphate",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 200000,
+    "casualties_high": 1000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Mongols destroyed Baghdad, ending the Abbasid Caliphate and devastating the Islamic Golden Age's greatest city. Libraries, hospitals, and mosques were destroyed.",
+    "tags": [
+      "imperial",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "b948f9a3-3d31-4a58-9be1-c0e89909353d",
+    "canonical_name": "Mongol invasions of Japan",
+    "aliases": [],
+    "start_date": 1274,
+    "end_date": 1281,
+    "date_uncertainty": "approximate",
+    "latitude": 33.588,
+    "longitude": 130.402,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Mongol Empire (Kublai Khan)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Kamakura Shogunate",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 30000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Two Mongol invasion fleets were destroyed by typhoons (kamikaze, 'divine wind') off Japan. The failed invasions became central to Japanese national mythology.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6b786134-8699-4da0-94df-b8b564a960e6",
+    "canonical_name": "Norman Conquest of England",
+    "aliases": [],
+    "start_date": 1066,
+    "end_date": 1066,
+    "date_uncertainty": "approximate",
+    "latitude": 50.914,
+    "longitude": 0.491,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Normandy (William)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Anglo-Saxon England (Harold)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 5000,
+    "casualties_high": 12000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "William the Conqueror defeated King Harold at Hastings, reshaping English language, law, and culture. One of history's most consequential single battles.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "7744189d-f03a-4192-8742-41a6c56aad67",
+    "canonical_name": "Hundred Years' War",
+    "aliases": [],
+    "start_date": 1337,
+    "end_date": 1453,
+    "date_uncertainty": "approximate",
+    "latitude": 48.856,
+    "longitude": 2.352,
+    "location_precision": "region",
+    "conflict_type": "succession",
+    "parties": [
+      {
+        "name": "Kingdom of England",
+        "role": "aggressor"
+      },
+      {
+        "name": "Kingdom of France",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 2000000,
+    "casualties_high": 3500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Dynastic conflict between England and France lasting 116 years. Featured longbow dominance at Agincourt and Joan of Arc's campaigns. Ended English continental ambitions.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "3819d57c-35d8-453e-bd27-9c61f73d4673",
+    "canonical_name": "Battle of Agincourt",
+    "aliases": [],
+    "start_date": 1415,
+    "end_date": 1415,
+    "date_uncertainty": "approximate",
+    "latitude": 50.463,
+    "longitude": 2.143,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "England (Henry V)",
+        "role": "aggressor"
+      },
+      {
+        "name": "France",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 7000,
+    "casualties_high": 10000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Outnumbered English archers devastated French cavalry in the mud. Henry V's greatest victory and one of history's most famous battles.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "3f48cede-557c-4aa6-803f-d1ff7a4d1ff1",
+    "canonical_name": "Timur's campaigns",
+    "aliases": [],
+    "start_date": 1370,
+    "end_date": 1405,
+    "date_uncertainty": "approximate",
+    "latitude": 39.652,
+    "longitude": 66.96,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Timurid Empire (Tamerlane)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Various states",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 8000000,
+    "casualties_high": 17000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Tamerlane conquered from Turkey to India, leaving pyramids of skulls outside defeated cities. His campaigns devastated Central Asia and the Middle East.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "0b87fd1e-d0cf-4ac1-bc33-f17f466a97a7",
+    "canonical_name": "Fall of Constantinople",
+    "aliases": [],
+    "start_date": 1453,
+    "end_date": 1453,
+    "date_uncertainty": "approximate",
+    "latitude": 41.009,
+    "longitude": 28.98,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Ottoman Empire (Mehmed II)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Byzantine Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 4000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Ottoman forces breached Constantinople's walls with gunpowder artillery, ending the 1,100-year Byzantine Empire and the last remnant of Rome.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "99407304-f80c-47c4-901b-ae9698f98160",
+    "canonical_name": "Reconquista (Fall of Granada)",
+    "aliases": [],
+    "start_date": 1482,
+    "end_date": 1492,
+    "date_uncertainty": "approximate",
+    "latitude": 37.176,
+    "longitude": -3.589,
+    "location_precision": "region",
+    "conflict_type": "religious",
+    "parties": [
+      {
+        "name": "Kingdom of Castile & Aragon",
+        "role": "aggressor"
+      },
+      {
+        "name": "Emirate of Granada",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "The final phase of the 700-year Christian reconquest of the Iberian Peninsula from Muslim rule, ending with the surrender of Granada's last Moorish king.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a5d4763f-e36d-4009-941d-888be46d697c",
+    "canonical_name": "Wars of the Roses",
+    "aliases": [],
+    "start_date": 1455,
+    "end_date": 1487,
+    "date_uncertainty": "approximate",
+    "latitude": 52.6,
+    "longitude": -1.5,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "House of York",
+        "role": "aggressor"
+      },
+      {
+        "name": "House of Lancaster",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Dynastic civil wars for the English throne between the houses of York and Lancaster. Ended with Henry Tudor's victory at Bosworth Field and the founding of the Tudor dynasty.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "adc04722-831e-46ee-87b1-31e805f15bf7",
+    "canonical_name": "Ghana Empire wars",
+    "aliases": [],
+    "start_date": 1040,
+    "end_date": 1076,
+    "date_uncertainty": "approximate",
+    "latitude": 17.6,
+    "longitude": -7.9,
+    "location_precision": "region",
+    "conflict_type": "religious",
+    "parties": [
+      {
+        "name": "Almoravid dynasty",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ghana Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Almoravid Berbers invaded the Ghana Empire in West Africa, weakening it and spreading Islam throughout the Sahel. Led to the empire's fragmentation.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "8cd1c695-684e-4778-9f5d-b160ea4d16e4",
+    "canonical_name": "Khmer-Cham wars",
+    "aliases": [],
+    "start_date": 1177,
+    "end_date": 1220,
+    "date_uncertainty": "approximate",
+    "latitude": 13.412,
+    "longitude": 103.867,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Champa",
+        "role": "aggressor"
+      },
+      {
+        "name": "Khmer Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": null,
+    "casualties_high": null,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Champa sacked the Khmer capital Angkor in 1177. King Jayavarman VII expelled them and rebuilt Angkor Thom, creating some of Southeast Asia's greatest monuments.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "cffef7c5-371d-42cd-8f0f-daae6bc7cbcb",
+    "canonical_name": "Spanish conquest of the Aztec Empire",
+    "aliases": [],
+    "start_date": 1519,
+    "end_date": 1521,
+    "date_uncertainty": "approximate",
+    "latitude": 19.432,
+    "longitude": -99.133,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Spanish Empire (Cortés)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Aztec Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 300000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Hernán Cortés and indigenous allies conquered the Aztec Empire. Disease killed far more than combat, devastating the population of central Mexico.",
+    "tags": [
+      "colonial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "706cb5df-d541-4217-ae09-4cafcdf2995d",
+    "canonical_name": "Spanish conquest of the Inca Empire",
+    "aliases": [],
+    "start_date": 1532,
+    "end_date": 1572,
+    "date_uncertainty": "approximate",
+    "latitude": -13.516,
+    "longitude": -71.979,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Spanish Empire (Pizarro)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Inca Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Francisco Pizarro exploited an Inca civil war to conquer the largest empire in the Americas. Combined with epidemic disease, the population collapsed.",
+    "tags": [
+      "colonial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a2597873-213d-4c65-9a0b-2be700a0b7af",
+    "canonical_name": "Ottoman-Safavid War (1532-1555)",
+    "aliases": [],
+    "start_date": 1532,
+    "end_date": 1555,
+    "date_uncertainty": "approximate",
+    "latitude": 33.3,
+    "longitude": 44.4,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Ottoman Empire (Suleiman)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Safavid Persia",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 300000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Decades of war between the Ottoman and Safavid empires over Mesopotamia and the Caucasus. Part of a centuries-long Sunni-Shia geopolitical rivalry.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "301ea620-b676-4e48-95cb-49d870dc2a5e",
+    "canonical_name": "Siege of Vienna (1529)",
+    "aliases": [],
+    "start_date": 1529,
+    "end_date": 1529,
+    "date_uncertainty": "approximate",
+    "latitude": 48.209,
+    "longitude": 16.373,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Ottoman Empire (Suleiman)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Habsburg Austria",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 40000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Ottoman armies besieged Vienna at the height of Ottoman expansion into Europe. The siege's failure marked the northwestern limit of Ottoman power.",
+    "tags": [
+      "religious",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "64b44c95-1f2c-4726-b15d-a12db47b771c",
+    "canonical_name": "Japanese invasions of Korea",
+    "aliases": [],
+    "start_date": 1592,
+    "end_date": 1598,
+    "date_uncertainty": "approximate",
+    "latitude": 35.179,
+    "longitude": 129.076,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Japan (Toyotomi Hideyoshi)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Joseon Korea / Ming China",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 300000,
+    "casualties_high": 1000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Hideyoshi invaded Korea as a stepping stone to China. Korean admiral Yi Sun-sin's naval victories and Ming Chinese intervention repelled the invasion.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "629c53f3-b3d7-44a0-ad8e-9f5ee88418ad",
+    "canonical_name": "Thirty Years' War",
+    "aliases": [],
+    "start_date": 1618,
+    "end_date": 1648,
+    "date_uncertainty": "approximate",
+    "latitude": 50.075,
+    "longitude": 14.438,
+    "location_precision": "region",
+    "conflict_type": "religious",
+    "parties": [
+      {
+        "name": "Protestant states / Sweden / France",
+        "role": "aggressor"
+      },
+      {
+        "name": "Catholic League / Holy Roman Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 4000000,
+    "casualties_high": 8000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Devastating religious and political war across Central Europe. Killed roughly a third of the German population. Ended with the Peace of Westphalia, founding the modern state system.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a5200e81-cccd-405f-988b-aeab54cbcbe9",
+    "canonical_name": "English Civil War",
+    "aliases": [],
+    "start_date": 1642,
+    "end_date": 1651,
+    "date_uncertainty": "approximate",
+    "latitude": 51.752,
+    "longitude": -1.258,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Parliamentarians",
+        "role": "aggressor"
+      },
+      {
+        "name": "Royalists",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 85000,
+    "casualties_high": 190000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "War between Parliament and King Charles I over governance and religion. Led to the king's execution and Cromwell's Protectorate.",
+    "tags": [
+      "succession",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c3ea0f91-628c-4a22-a44a-bf4e35502a82",
+    "canonical_name": "Mughal conquest of India",
+    "aliases": [],
+    "start_date": 1526,
+    "end_date": 1600,
+    "date_uncertainty": "approximate",
+    "latitude": 28.613,
+    "longitude": 77.209,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Mughal Empire (Babur/Akbar)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Delhi Sultanate / Rajputs",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 200000,
+    "casualties_high": 500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Babur's descendants built one of history's wealthiest empires across the Indian subcontinent, synthesising Persian, Turkic, and Indian cultures.",
+    "tags": [
+      "imperial",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "0f94903e-da1c-4397-a097-c2a64eece17f",
+    "canonical_name": "Manchu conquest of China (Qing)",
+    "aliases": [],
+    "start_date": 1618,
+    "end_date": 1683,
+    "date_uncertainty": "approximate",
+    "latitude": 39.904,
+    "longitude": 116.407,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Manchu / Qing Dynasty",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ming Dynasty / Southern Ming",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000000,
+    "casualties_high": 25000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "The Manchu Qing dynasty conquered Ming China in one of history's deadliest conquests. Wars, massacres, and famine killed tens of millions.",
+    "tags": [
+      "imperial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "97af9124-f155-4857-8037-18fb933a2069",
+    "canonical_name": "Great Northern War",
+    "aliases": [],
+    "start_date": 1700,
+    "end_date": 1721,
+    "date_uncertainty": "approximate",
+    "latitude": 59.329,
+    "longitude": 18.069,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Russia (Peter I)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Swedish Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 200000,
+    "casualties_high": 400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Coalition war led by Russia against Sweden. Ended Swedish dominance of the Baltic and established Russia as a major European power under Peter the Great.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "e9f6b555-3d89-4d4e-bf8a-b0e57cdc6cf5",
+    "canonical_name": "War of the Spanish Succession",
+    "aliases": [],
+    "start_date": 1701,
+    "end_date": 1714,
+    "date_uncertainty": "approximate",
+    "latitude": 50.846,
+    "longitude": 4.352,
+    "location_precision": "region",
+    "conflict_type": "succession",
+    "parties": [
+      {
+        "name": "Grand Alliance (Britain/Austria/Dutch)",
+        "role": "aggressor"
+      },
+      {
+        "name": "France / Spain",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 400000,
+    "casualties_high": 700000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "European war over who would succeed to the Spanish throne. Resulted in a balance of power, British rise, and the Treaty of Utrecht.",
+    "tags": [
+      "succession",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c8d138b4-535d-46b2-b5c6-cccc80083bf2",
+    "canonical_name": "Seven Years' War",
+    "aliases": [],
+    "start_date": 1756,
+    "end_date": 1763,
+    "date_uncertainty": "approximate",
+    "latitude": 51.34,
+    "longitude": 12.375,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Britain / Prussia",
+        "role": "aggressor"
+      },
+      {
+        "name": "France / Austria / Russia",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 900000,
+    "casualties_high": 1400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Global conflict fought across Europe, the Americas, Africa, and Asia. Often called the first true world war. Britain emerged as the dominant colonial power.",
+    "tags": [
+      "imperial",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "d477413b-2ea3-4ad2-b215-4e950d6b5c66",
+    "canonical_name": "Battle of Plassey",
+    "aliases": [],
+    "start_date": 1757,
+    "end_date": 1757,
+    "date_uncertainty": "approximate",
+    "latitude": 23.8,
+    "longitude": 88.3,
+    "location_precision": "point",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "British East India Company",
+        "role": "aggressor"
+      },
+      {
+        "name": "Nawab of Bengal",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 600,
+    "casualties_high": 1000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Robert Clive's victory over the Nawab of Bengal established British control over the richest province in India. The beginning of the British Raj.",
+    "tags": [
+      "colonial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a47e211c-90c6-4ea3-99d6-6f92a09325b3",
+    "canonical_name": "American Revolutionary War",
+    "aliases": [],
+    "start_date": 1775,
+    "end_date": 1783,
+    "date_uncertainty": "approximate",
+    "latitude": 40.014,
+    "longitude": -75.134,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "American colonies / France",
+        "role": "aggressor"
+      },
+      {
+        "name": "British Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 37000,
+    "casualties_high": 70000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "American colonies revolted against British rule, establishing the United States. French intervention proved decisive in the British defeat at Yorktown.",
+    "tags": [
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6af4b738-2799-4cd6-b3c1-fc0ffb63ed5c",
+    "canonical_name": "French Revolutionary Wars",
+    "aliases": [],
+    "start_date": 1792,
+    "end_date": 1802,
+    "date_uncertainty": "approximate",
+    "latitude": 48.856,
+    "longitude": 2.352,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "French Republic",
+        "role": "defender"
+      },
+      {
+        "name": "European coalitions",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 600000,
+    "casualties_high": 1500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Revolutionary France fought successive coalitions of European monarchies. The wars spread revolutionary ideals across Europe and set the stage for Napoleon.",
+    "tags": [
+      "succession",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "e108a50d-3260-463a-95c7-3b50ec2e8835",
+    "canonical_name": "Haitian Revolution",
+    "aliases": [],
+    "start_date": 1791,
+    "end_date": 1804,
+    "date_uncertainty": "approximate",
+    "latitude": 18.971,
+    "longitude": -72.285,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Haitian slaves / freedmen",
+        "role": "aggressor"
+      },
+      {
+        "name": "France / Spain / Britain",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 350000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Enslaved people in the French colony of Saint-Domingue overthrew their enslavers, defeated Napoleon's army, and founded the first Black republic. The only successful slave revolution in history.",
+    "tags": [
+      "colonial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "5e568fdd-0f60-4fb1-b7fc-58e25256d32b",
+    "canonical_name": "Zulu Kingdom expansion",
+    "aliases": [],
+    "start_date": 1817,
+    "end_date": 1828,
+    "date_uncertainty": "approximate",
+    "latitude": -28.5,
+    "longitude": 31,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Zulu Kingdom (Shaka)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Various Nguni / Sotho peoples",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 2000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Shaka Zulu's military innovations caused the Mfecane — a massive wave of displacement and warfare across southern and eastern Africa that reorganised entire populations.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "7d368279-a1d8-425e-abc1-6016eeec9347",
+    "canonical_name": "Napoleonic Wars",
+    "aliases": [],
+    "start_date": 1803,
+    "end_date": 1815,
+    "date_uncertainty": "approximate",
+    "latitude": 50.69,
+    "longitude": 4.38,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "French Empire (Napoleon)",
+        "role": "aggressor"
+      },
+      {
+        "name": "European coalitions",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 3000000,
+    "casualties_high": 6500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Napoleon's campaigns reshaped Europe's borders and spread revolutionary principles. Ended with his defeat at Waterloo and the Congress of Vienna.",
+    "tags": [
+      "imperial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c1afbc04-bb29-4c4c-a3e3-f03b4eb925e3",
+    "canonical_name": "Battle of Austerlitz",
+    "aliases": [],
+    "start_date": 1805,
+    "end_date": 1805,
+    "date_uncertainty": "exact",
+    "latitude": 49.139,
+    "longitude": 16.762,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "French Empire (Napoleon)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Austria / Russia",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 36000,
+    "casualties_high": 40000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Napoleon's masterpiece. Defeated the combined Austro-Russian army by feigning weakness on his right, then counterattacking through the centre. Ended the Third Coalition.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "7f44393b-cce6-4863-a51e-272c84f85195",
+    "canonical_name": "Battle of Borodino",
+    "aliases": [],
+    "start_date": 1812,
+    "end_date": 1812,
+    "date_uncertainty": "approximate",
+    "latitude": 55.518,
+    "longitude": 35.823,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "French Empire (Napoleon)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Russian Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 65000,
+    "casualties_high": 80000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Bloodiest single day of the Napoleonic Wars, fought before Moscow. A pyrrhic French victory that failed to destroy the Russian army, dooming the invasion.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "194beb98-9ce0-4f4c-8a9f-93f1c9b81ac4",
+    "canonical_name": "Battle of Waterloo",
+    "aliases": [],
+    "start_date": 1815,
+    "end_date": 1815,
+    "date_uncertainty": "exact",
+    "latitude": 50.681,
+    "longitude": 4.412,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Seventh Coalition (Wellington / Blücher)",
+        "role": "defender"
+      },
+      {
+        "name": "French Empire (Napoleon)",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 47000,
+    "casualties_high": 65000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Napoleon's final defeat by allied forces near Brussels. Ended 23 years of almost continuous warfare in Europe.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "35a4ac9b-977d-4805-8fe6-1c4f87fd2e1d",
+    "canonical_name": "Latin American wars of independence",
+    "aliases": [],
+    "start_date": 1808,
+    "end_date": 1833,
+    "date_uncertainty": "approximate",
+    "latitude": -12,
+    "longitude": -77,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Independence movements (Bolívar/San Martín)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Spanish Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 1500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Wave of revolutions across Spanish America led by Simón Bolívar and José de San Martín, creating independent nations from Mexico to Argentina.",
+    "tags": [
+      "colonial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c9a2e60d-76df-440a-ba38-42e5b6a2d47b",
+    "canonical_name": "Greek War of Independence",
+    "aliases": [],
+    "start_date": 1821,
+    "end_date": 1829,
+    "date_uncertainty": "approximate",
+    "latitude": 37.971,
+    "longitude": 23.726,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Greek revolutionaries",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ottoman Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 120000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Greek revolt against Ottoman rule, supported by Britain, France, and Russia. Established the modern Greek state and inspired nationalist movements across Europe.",
+    "tags": [
+      "religious",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "3007bb6b-6351-4af8-85d9-08f8700ef438",
+    "canonical_name": "First Opium War",
+    "aliases": [],
+    "start_date": 1839,
+    "end_date": 1842,
+    "date_uncertainty": "approximate",
+    "latitude": 22.28,
+    "longitude": 114.16,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "British Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "Qing Dynasty",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 30000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Britain waged war to force China to accept opium imports. China's defeat led to the cession of Hong Kong and the Century of Humiliation.",
+    "tags": [
+      "colonial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "d075ceb8-791f-426d-905e-6f1a87702735",
+    "canonical_name": "Taiping Rebellion",
+    "aliases": [],
+    "start_date": 1850,
+    "end_date": 1864,
+    "date_uncertainty": "approximate",
+    "latitude": 30.572,
+    "longitude": 114.054,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Taiping Heavenly Kingdom",
+        "role": "aggressor"
+      },
+      {
+        "name": "Qing Dynasty",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000000,
+    "casualties_high": 30000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Massive civil war in China led by a Christian mystic. The deadliest civil war in history, killing more people than World War I. Devastated southern China.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c4cdecce-cab2-49ab-a76c-a3048c8e9018",
+    "canonical_name": "Crimean War",
+    "aliases": [],
+    "start_date": 1853,
+    "end_date": 1856,
+    "date_uncertainty": "approximate",
+    "latitude": 44.611,
+    "longitude": 33.523,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Ottoman Empire / Britain / France",
+        "role": "defender"
+      },
+      {
+        "name": "Russian Empire",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 350000,
+    "casualties_high": 600000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "War fought primarily in Crimea between Russia and an alliance of Ottoman, British, French, and Sardinian forces. Notable for terrible logistics and Florence Nightingale's nursing reforms.",
+    "tags": [
+      "imperial",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "9b456193-7b06-454b-ac3f-56c719b2ed33",
+    "canonical_name": "Indian Rebellion of 1857",
+    "aliases": [],
+    "start_date": 1857,
+    "end_date": 1858,
+    "date_uncertainty": "approximate",
+    "latitude": 28.613,
+    "longitude": 77.209,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Indian sepoys / princes",
+        "role": "aggressor"
+      },
+      {
+        "name": "British East India Company",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 800000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Widespread uprising against British rule in India. Though suppressed, it ended Company rule and established direct British Crown control over India.",
+    "tags": [
+      "colonial",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "1215def7-7565-46d9-ba16-3feb462e1e0f",
+    "canonical_name": "American Civil War",
+    "aliases": [],
+    "start_date": 1861,
+    "end_date": 1865,
+    "date_uncertainty": "approximate",
+    "latitude": 38.35,
+    "longitude": -79.1,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Union (USA)",
+        "role": "defender"
+      },
+      {
+        "name": "Confederacy (CSA)",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 620000,
+    "casualties_high": 750000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "War between the Union and seceding Southern states over slavery and states' rights. The deadliest conflict in American history, ending slavery in the United States.",
+    "tags": [
+      "succession",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "8d173d68-a731-4778-9344-1a629a71ded5",
+    "canonical_name": "Battle of Gettysburg",
+    "aliases": [],
+    "start_date": 1863,
+    "end_date": 1863,
+    "date_uncertainty": "exact",
+    "latitude": 39.813,
+    "longitude": -77.23,
+    "location_precision": "point",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Union (USA)",
+        "role": "defender"
+      },
+      {
+        "name": "Confederacy (CSA)",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 46000,
+    "casualties_high": 51000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Turning point of the American Civil War. Three-day battle in Pennsylvania ended Lee's invasion of the North and marked the beginning of the Confederacy's decline.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "d4bfd57d-23f3-4885-a13f-40f2a1380baa",
+    "canonical_name": "Paraguayan War (War of the Triple Alliance)",
+    "aliases": [],
+    "start_date": 1864,
+    "end_date": 1870,
+    "date_uncertainty": "approximate",
+    "latitude": -25.3,
+    "longitude": -57.6,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Brazil / Argentina / Uruguay",
+        "role": "aggressor"
+      },
+      {
+        "name": "Paraguay",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 300000,
+    "casualties_high": 1200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Paraguay fought Brazil, Argentina, and Uruguay in South America's deadliest war. Paraguay lost 60-90% of its male population in the catastrophic defeat.",
+    "tags": [
+      "succession",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "11075946-ec79-4d4b-8755-3dce3fdebfa5",
+    "canonical_name": "Franco-Prussian War",
+    "aliases": [],
+    "start_date": 1870,
+    "end_date": 1871,
+    "date_uncertainty": "approximate",
+    "latitude": 49.12,
+    "longitude": 6.176,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Prussia / North German Confederation",
+        "role": "aggressor"
+      },
+      {
+        "name": "French Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 180000,
+    "casualties_high": 250000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Prussian victory that unified Germany, ended the French Second Empire, and seeded Franco-German enmity that would drive both World Wars.",
+    "tags": [
+      "imperial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "96c1d38c-6ce7-40a8-abaa-2fc524990783",
+    "canonical_name": "Zulu War",
+    "aliases": [],
+    "start_date": 1879,
+    "end_date": 1879,
+    "date_uncertainty": "approximate",
+    "latitude": -28.352,
+    "longitude": 30.655,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "British Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "Zulu Kingdom",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 8000,
+    "casualties_high": 15000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "British invasion of the Zulu Kingdom in southern Africa. Despite a shocking British defeat at Isandlwana, the Zulu state was destroyed within months.",
+    "tags": [
+      "colonial",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "7fb3d8b0-e45a-4e9e-8526-6bc17781f25a",
+    "canonical_name": "Mahdist War (Sudan)",
+    "aliases": [],
+    "start_date": 1881,
+    "end_date": 1899,
+    "date_uncertainty": "approximate",
+    "latitude": 15.6,
+    "longitude": 32.5,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Mahdist State",
+        "role": "aggressor"
+      },
+      {
+        "name": "Egypt / British Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Islamist revolt in Sudan overthrew Egyptian rule and killed General Gordon at Khartoum. Ended with Kitchener's reconquest at Omdurman.",
+    "tags": [
+      "religious",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "11c6429f-ffd9-4228-b953-801dbdca2b89",
+    "canonical_name": "First Sino-Japanese War",
+    "aliases": [],
+    "start_date": 1894,
+    "end_date": 1895,
+    "date_uncertainty": "approximate",
+    "latitude": 38.917,
+    "longitude": 121.639,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Empire of Japan",
+        "role": "aggressor"
+      },
+      {
+        "name": "Qing Dynasty",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 35000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Japan's decisive victory over China revealed the Qing dynasty's weakness and established Japan as East Asia's dominant military power.",
+    "tags": [
+      "imperial",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "173c8fb3-b06a-49bd-953f-34558063ea3a",
+    "canonical_name": "Second Boer War",
+    "aliases": [],
+    "start_date": 1899,
+    "end_date": 1902,
+    "date_uncertainty": "approximate",
+    "latitude": -29.095,
+    "longitude": 26.2,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "British Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "Boer Republics",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 60000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "British war against the Boer republics of southern Africa. Notorious for Britain's use of concentration camps, which killed tens of thousands of Boer civilians.",
+    "tags": [
+      "colonial",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "b911e871-3f0a-4b21-b9b8-56d7880e4385",
+    "canonical_name": "Russo-Japanese War",
+    "aliases": [],
+    "start_date": 1904,
+    "end_date": 1905,
+    "date_uncertainty": "approximate",
+    "latitude": 38.733,
+    "longitude": 125.754,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Empire of Japan",
+        "role": "aggressor"
+      },
+      {
+        "name": "Russian Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 130000,
+    "casualties_high": 170000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Japan's victory over Russia shocked the world and ended Russian expansion in East Asia. The first modern war won by an Asian power against a European one.",
+    "tags": [
+      "imperial",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "231a9f57-ac6f-41ac-9615-5431aaa7265d",
+    "canonical_name": "Herero and Nama genocide",
+    "aliases": [],
+    "start_date": 1904,
+    "end_date": 1908,
+    "date_uncertainty": "approximate",
+    "latitude": -22.6,
+    "longitude": 17.1,
+    "location_precision": "region",
+    "conflict_type": "genocide",
+    "parties": [
+      {
+        "name": "German Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "Herero and Nama peoples",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 65000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "German colonial forces systematically exterminated the Herero and Nama peoples of South-West Africa. Considered the first genocide of the 20th century.",
+    "tags": [
+      "colonial",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "71b602cd-17e5-4f11-805d-695d282fb92c",
+    "canonical_name": "World War I – Western Front",
+    "aliases": [],
+    "start_date": 1914,
+    "end_date": 1918,
+    "date_uncertainty": "approximate",
+    "latitude": 49.5,
+    "longitude": 3,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Allied Powers",
+        "role": "defender"
+      },
+      {
+        "name": "Central Powers",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 5000000,
+    "casualties_high": 8000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Four years of trench warfare across northern France and Belgium. The Somme, Verdun, Passchendaele — a generation destroyed in a strip of mud.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "716732ab-c296-49bc-b9d5-9e6191c6810d",
+    "canonical_name": "World War I – Eastern Front",
+    "aliases": [],
+    "start_date": 1914,
+    "end_date": 1918,
+    "date_uncertainty": "approximate",
+    "latitude": 52,
+    "longitude": 23,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Central Powers",
+        "role": "aggressor"
+      },
+      {
+        "name": "Russian Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 3000000,
+    "casualties_high": 5000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Mobile warfare across Poland, the Baltics, and Ukraine. Russian defeats fuelled the revolution that ended the Tsarist empire.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "b45b067c-8377-496d-b40a-8af7377c43ac",
+    "canonical_name": "Battle of the Marne",
+    "aliases": [],
+    "start_date": 1914,
+    "end_date": 1914,
+    "date_uncertainty": "approximate",
+    "latitude": 48.95,
+    "longitude": 3.4,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "France / Britain",
+        "role": "defender"
+      },
+      {
+        "name": "German Empire",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 250000,
+    "casualties_high": 500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "French and British forces halted the German advance toward Paris, ending the war of movement and beginning four years of trench warfare.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "52d41fe3-9c1f-4954-bc60-c28646eee2fc",
+    "canonical_name": "Battle of Tannenberg",
+    "aliases": [],
+    "start_date": 1914,
+    "end_date": 1914,
+    "date_uncertainty": "approximate",
+    "latitude": 53.5,
+    "longitude": 20.2,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "German Empire (Hindenburg)",
+        "role": "defender"
+      },
+      {
+        "name": "Russian Empire",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 170000,
+    "casualties_high": 190000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Germany's decisive encirclement and destruction of a Russian army in East Prussia. The disaster ended Russia's invasion of Germany and made Hindenburg a national hero.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c7a92bd9-eabb-4306-9eb0-92fae9dfac80",
+    "canonical_name": "Gallipoli Campaign",
+    "aliases": [],
+    "start_date": 1915,
+    "end_date": 1916,
+    "date_uncertainty": "approximate",
+    "latitude": 40.233,
+    "longitude": 26.283,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Allied Powers (ANZAC)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ottoman Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 350000,
+    "casualties_high": 500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Failed Allied attempt to knock the Ottoman Empire out of WWI by seizing the Dardanelles. A defining national moment for Australia, New Zealand, and Turkey.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "767b95f4-0a59-4b19-b642-94e9d27fe4fa",
+    "canonical_name": "Armenian Genocide",
+    "aliases": [],
+    "start_date": 1915,
+    "end_date": 1923,
+    "date_uncertainty": "approximate",
+    "latitude": 39.5,
+    "longitude": 41,
+    "location_precision": "region",
+    "conflict_type": "genocide",
+    "parties": [
+      {
+        "name": "Ottoman Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "Armenian population",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 600000,
+    "casualties_high": 1500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Systematic extermination of Armenians by the Ottoman government through massacres, death marches, and forced starvation. The first genocide of the 20th century.",
+    "tags": [
+      "religious",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "d16c702a-eabb-4c73-99b8-79a61a048869",
+    "canonical_name": "Battle of the Somme",
+    "aliases": [],
+    "start_date": 1916,
+    "end_date": 1916,
+    "date_uncertainty": "exact",
+    "latitude": 50.005,
+    "longitude": 2.698,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Britain / France",
+        "role": "aggressor"
+      },
+      {
+        "name": "German Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000000,
+    "casualties_high": 1200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "One of the bloodiest battles in history. Britain suffered 57,000 casualties on the first day alone. Epitomised the futility of WWI trench warfare.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "c6ad4810-ac6e-40a7-9433-348fa7f8a4df",
+    "canonical_name": "Battle of Verdun",
+    "aliases": [],
+    "start_date": 1916,
+    "end_date": 1916,
+    "date_uncertainty": "exact",
+    "latitude": 49.209,
+    "longitude": 5.388,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "German Empire",
+        "role": "aggressor"
+      },
+      {
+        "name": "France",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 700000,
+    "casualties_high": 1000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Germany's attrition offensive against the French fortress city of Verdun. Ten months of fighting produced nearly a million casualties with minimal territorial change.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "87a7bcdc-4665-4b66-81ec-286a2297a45a",
+    "canonical_name": "Battle of Passchendaele",
+    "aliases": [],
+    "start_date": 1917,
+    "end_date": 1917,
+    "date_uncertainty": "approximate",
+    "latitude": 50.896,
+    "longitude": 2.984,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Britain / ANZAC",
+        "role": "aggressor"
+      },
+      {
+        "name": "German Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 475000,
+    "casualties_high": 600000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "British offensive in Flanders, fought in apocalyptic mud. Gained five miles at the cost of half a million casualties. Synonymous with the horror of WWI.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a1469f95-8880-408c-9761-21e3ffa5f46e",
+    "canonical_name": "World War I – Middle Eastern Theatre",
+    "aliases": [],
+    "start_date": 1914,
+    "end_date": 1918,
+    "date_uncertainty": "approximate",
+    "latitude": 33.3,
+    "longitude": 44.4,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Allied Powers (Britain)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ottoman Empire",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 1000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "British and Arab forces fought the Ottoman Empire across Mesopotamia, Palestine, and Arabia. T.E. Lawrence's Arab Revolt and the fall of Jerusalem reshaped the modern Middle East.",
+    "tags": [
+      "imperial",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "13fe4879-410e-4dd9-9268-6e09f2faf5bf",
+    "canonical_name": "Russian Civil War",
+    "aliases": [],
+    "start_date": 1917,
+    "end_date": 1922,
+    "date_uncertainty": "approximate",
+    "latitude": 55.756,
+    "longitude": 37.617,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Bolsheviks (Red Army)",
+        "role": "aggressor"
+      },
+      {
+        "name": "White Army / Allies",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 5000000,
+    "casualties_high": 9000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Multi-sided civil war following the Bolshevik Revolution. Combat, famine, and disease killed millions and established the Soviet Union.",
+    "tags": [
+      "succession",
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6c04bfc6-8bf6-4383-be1f-f861ae8a9807",
+    "canonical_name": "Greco-Turkish War",
+    "aliases": [],
+    "start_date": 1919,
+    "end_date": 1922,
+    "date_uncertainty": "approximate",
+    "latitude": 38.4,
+    "longitude": 27.1,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Greece",
+        "role": "aggressor"
+      },
+      {
+        "name": "Turkish National Movement (Atatürk)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 300000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Greece invaded Anatolia to claim territory promised by the Allies. Turkish forces under Atatürk expelled the Greeks, leading to massive population exchanges.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "f612b72e-f156-4196-8062-165a4afcd593",
+    "canonical_name": "Spanish Civil War",
+    "aliases": [],
+    "start_date": 1936,
+    "end_date": 1939,
+    "date_uncertainty": "approximate",
+    "latitude": 40.416,
+    "longitude": -3.703,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Nationalists (Franco)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Spanish Republic",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 1000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Fascist-backed Nationalists overthrew the Spanish Republic with German and Italian support. A rehearsal for WWII, including the bombing of Guernica.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a55526c6-f032-40f5-91f0-5e1260b7d029",
+    "canonical_name": "Second Sino-Japanese War",
+    "aliases": [],
+    "start_date": 1937,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 32.061,
+    "longitude": 118.773,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Empire of Japan",
+        "role": "aggressor"
+      },
+      {
+        "name": "Republic of China",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 15000000,
+    "casualties_high": 22000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Japan's brutal invasion of China, including the Nanjing Massacre. Merged into WWII and resulted in massive Chinese military and civilian casualties.",
+    "tags": [
+      "imperial",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ede67cd6-2223-404b-a94a-13d29ed402a4",
+    "canonical_name": "Nanjing Massacre",
+    "aliases": [],
+    "start_date": 1937,
+    "end_date": 1938,
+    "date_uncertainty": "approximate",
+    "latitude": 32.061,
+    "longitude": 118.773,
+    "location_precision": "point",
+    "conflict_type": "genocide",
+    "parties": [
+      {
+        "name": "Imperial Japanese Army",
+        "role": "aggressor"
+      },
+      {
+        "name": "Chinese civilians",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 300000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Japanese troops massacred civilians and prisoners of war after capturing the Chinese capital of Nanjing. One of the worst atrocities of the 20th century.",
+    "tags": [
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "55be3873-8e4e-457e-a106-db3a79ffb7b6",
+    "canonical_name": "World War II – European Theatre",
+    "aliases": [],
+    "start_date": 1939,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Allied Powers",
+        "role": "defender"
+      },
+      {
+        "name": "Axis Powers",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 35000000,
+    "casualties_high": 55000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "History's deadliest conflict. Nazi Germany's conquest of Europe and the Allied response, from Blitzkrieg through D-Day to the fall of Berlin.",
+    "tags": [
+      "imperial",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "f1eb5e1a-5779-4382-a04f-56db0c3c12b3",
+    "canonical_name": "Battle of Britain",
+    "aliases": [],
+    "start_date": 1940,
+    "end_date": 1940,
+    "date_uncertainty": "approximate",
+    "latitude": 51.509,
+    "longitude": -0.118,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Britain (RAF)",
+        "role": "defender"
+      },
+      {
+        "name": "Nazi Germany (Luftwaffe)",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 44000,
+    "casualties_high": 44000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Germany's air campaign to achieve air superiority over Britain failed. The RAF's defence prevented a German invasion and was the first major Axis defeat.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "f4fc39f0-e6ff-4992-958e-05ba0b4ec717",
+    "canonical_name": "Siege of Leningrad",
+    "aliases": [],
+    "start_date": 1941,
+    "end_date": 1944,
+    "date_uncertainty": "approximate",
+    "latitude": 59.934,
+    "longitude": 30.335,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Nazi Germany / Finland",
+        "role": "aggressor"
+      },
+      {
+        "name": "Soviet Union",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000000,
+    "casualties_high": 1500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "872-day German siege of Leningrad. Over a million civilians died, mostly from starvation. One of history's most destructive sieges and a symbol of Soviet resilience.",
+    "tags": [
+      "imperial",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "37d70a5a-7745-4716-ad43-2f202754d4a3",
+    "canonical_name": "Battle of Stalingrad",
+    "aliases": [],
+    "start_date": 1942,
+    "end_date": 1943,
+    "date_uncertainty": "approximate",
+    "latitude": 48.708,
+    "longitude": 44.514,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Soviet Union",
+        "role": "defender"
+      },
+      {
+        "name": "Nazi Germany",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 1500000,
+    "casualties_high": 2000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "The turning point of WWII in Europe. The Soviet encirclement and destruction of the German 6th Army was the deadliest battle in human history.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "0c970f74-4136-4870-830d-7dfaf1525c5d",
+    "canonical_name": "Battle of Kursk",
+    "aliases": [],
+    "start_date": 1943,
+    "end_date": 1943,
+    "date_uncertainty": "approximate",
+    "latitude": 51.73,
+    "longitude": 36.193,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Soviet Union",
+        "role": "defender"
+      },
+      {
+        "name": "Nazi Germany",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 800000,
+    "casualties_high": 1200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Largest tank battle in history. Soviet defensive victory that permanently seized the strategic initiative on the Eastern Front.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "95744a51-380c-4e9f-8060-2405fddf480f",
+    "canonical_name": "Battle of El Alamein",
+    "aliases": [],
+    "start_date": 1942,
+    "end_date": 1942,
+    "date_uncertainty": "approximate",
+    "latitude": 30.83,
+    "longitude": 28.96,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Britain (Montgomery)",
+        "role": "defender"
+      },
+      {
+        "name": "Nazi Germany / Italy (Rommel)",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 35000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "British victory in North Africa that ended the Axis threat to Egypt and the Suez Canal. Churchill said: 'Before Alamein we never had a victory. After Alamein we never had a defeat.'",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "df1a827a-b795-40c0-8197-901b0df38ec2",
+    "canonical_name": "D-Day (Normandy Landings)",
+    "aliases": [],
+    "start_date": 1944,
+    "end_date": 1944,
+    "date_uncertainty": "exact",
+    "latitude": 49.368,
+    "longitude": -0.878,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Allied Powers",
+        "role": "aggressor"
+      },
+      {
+        "name": "Nazi Germany",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 12000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "The largest amphibious invasion in history. Allied forces landed on five beaches in Normandy, opening the Western Front and beginning the liberation of France.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "129a0dfa-2809-49f4-b0ae-05e44b029446",
+    "canonical_name": "Battle of the Bulge",
+    "aliases": [],
+    "start_date": 1944,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 50.18,
+    "longitude": 5.97,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Nazi Germany",
+        "role": "aggressor"
+      },
+      {
+        "name": "Allied Powers",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 190000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Germany's last major offensive in the west, through the Ardennes forest. Initial surprise gains were reversed as Allied forces held and counterattacked.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "d838900f-6391-4d0f-9513-e749266a609f",
+    "canonical_name": "Battle of Berlin",
+    "aliases": [],
+    "start_date": 1945,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Soviet Union",
+        "role": "aggressor"
+      },
+      {
+        "name": "Nazi Germany",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 200000,
+    "casualties_high": 400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Soviet forces stormed Berlin in the final battle of the European war. Hitler committed suicide in his bunker as Soviet flags were raised over the Reichstag.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a2346a8f-6c28-43fb-82ed-85d7907a0018",
+    "canonical_name": "The Holocaust",
+    "aliases": [],
+    "start_date": 1941,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 51.39,
+    "longitude": 21.15,
+    "location_precision": "region",
+    "conflict_type": "genocide",
+    "parties": [
+      {
+        "name": "Nazi Germany",
+        "role": "aggressor"
+      },
+      {
+        "name": "European Jews and minorities",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 6000000,
+    "casualties_high": 6000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Systematic, state-sponsored genocide of six million Jews and millions of others by Nazi Germany. Auschwitz, Treblinka, and other camps industrialised mass murder.",
+    "tags": [
+      "genocide",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "b6b279fe-8285-4933-a71d-fe74778f2de9",
+    "canonical_name": "World War II – Pacific Theatre",
+    "aliases": [],
+    "start_date": 1941,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 14.6,
+    "longitude": 120.984,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Allied Powers (USA)",
+        "role": "defender"
+      },
+      {
+        "name": "Empire of Japan",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 15000000,
+    "casualties_high": 26000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "War across the Pacific from Pearl Harbor to Hiroshima. Island-hopping campaigns, firebombing of Japanese cities, and the first use of nuclear weapons.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "371f8737-816b-41ca-9f52-b7b68a1490de",
+    "canonical_name": "Battle of Midway",
+    "aliases": [],
+    "start_date": 1942,
+    "end_date": 1942,
+    "date_uncertainty": "exact",
+    "latitude": 28.21,
+    "longitude": -177.37,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "United States",
+        "role": "defender"
+      },
+      {
+        "name": "Empire of Japan",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 3000,
+    "casualties_high": 4000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "US Navy sank four Japanese aircraft carriers in the decisive battle of the Pacific War. Shifted the strategic initiative permanently to the Allies.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "dd5b2181-5ad3-4f73-b8fe-7ea977f1a21f",
+    "canonical_name": "Battle of Iwo Jima",
+    "aliases": [],
+    "start_date": 1945,
+    "end_date": 1945,
+    "date_uncertainty": "exact",
+    "latitude": 24.758,
+    "longitude": 141.291,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "United States",
+        "role": "aggressor"
+      },
+      {
+        "name": "Empire of Japan",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 26000,
+    "casualties_high": 28000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Brutal 36-day battle for a tiny volcanic island. Of 21,000 Japanese defenders, only 216 survived. The iconic flag-raising became a symbol of American resolve.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "cfdc35cf-ca27-4329-8dc5-2c474e5ae338",
+    "canonical_name": "Battle of Okinawa",
+    "aliases": [],
+    "start_date": 1945,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 26.334,
+    "longitude": 127.801,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "United States",
+        "role": "aggressor"
+      },
+      {
+        "name": "Empire of Japan",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 150000,
+    "casualties_high": 250000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Largest amphibious battle of the Pacific. Massive civilian casualties and fierce Japanese resistance influenced the decision to use atomic bombs.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a9eae01c-5514-46ba-88c2-72b98c130fb4",
+    "canonical_name": "Atomic bombing of Hiroshima",
+    "aliases": [],
+    "start_date": 1945,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 34.394,
+    "longitude": 132.455,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "United States",
+        "role": "aggressor"
+      },
+      {
+        "name": "Empire of Japan",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 90000,
+    "casualties_high": 166000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "The first nuclear weapon used in warfare destroyed Hiroshima on August 6, 1945. Combined with Nagasaki three days later, it forced Japan's surrender.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "da498f9c-395f-45c2-b10e-e1aa5eb8d2b5",
+    "canonical_name": "Atomic bombing of Nagasaki",
+    "aliases": [],
+    "start_date": 1945,
+    "end_date": 1945,
+    "date_uncertainty": "approximate",
+    "latitude": 32.775,
+    "longitude": 129.862,
+    "location_precision": "point",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "United States",
+        "role": "aggressor"
+      },
+      {
+        "name": "Empire of Japan",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 60000,
+    "casualties_high": 80000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Second and last nuclear weapon used in warfare destroyed Nagasaki on August 9, 1945, three days after Hiroshima.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ee76a78b-ead2-4bf5-bc7b-63569682e0c6",
+    "canonical_name": "Chinese Civil War (final phase)",
+    "aliases": [],
+    "start_date": 1945,
+    "end_date": 1949,
+    "date_uncertainty": "approximate",
+    "latitude": 34.26,
+    "longitude": 108.94,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Communist Party of China (Mao)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Republic of China (KMT)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000000,
+    "casualties_high": 6000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Communist forces under Mao Zedong defeated the Nationalists, establishing the People's Republic of China. The KMT retreated to Taiwan.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "d1f8acf8-b7fd-47ca-88ce-e01ac8a9c592",
+    "canonical_name": "Partition of India",
+    "aliases": [],
+    "start_date": 1947,
+    "end_date": 1947,
+    "date_uncertainty": "approximate",
+    "latitude": 30,
+    "longitude": 73,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Hindu / Sikh communities",
+        "role": "aggressor"
+      },
+      {
+        "name": "Muslim communities",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 200000,
+    "casualties_high": 2000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "The partition of British India into India and Pakistan triggered one of history's largest mass migrations and horrific sectarian violence on both sides.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "7baa3a68-a959-45e7-a734-b842b191a1f5",
+    "canonical_name": "First Arab-Israeli War",
+    "aliases": [],
+    "start_date": 1948,
+    "end_date": 1949,
+    "date_uncertainty": "approximate",
+    "latitude": 31.774,
+    "longitude": 35.227,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Israel",
+        "role": "defender"
+      },
+      {
+        "name": "Arab League coalition",
+        "role": "aggressor"
+      }
+    ],
+    "casualties_low": 13000,
+    "casualties_high": 20000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Arab states invaded the newly declared State of Israel. Israel survived and expanded its territory, while 700,000 Palestinians became refugees.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "bfb6231a-7564-4784-adb3-c210f26743a6",
+    "canonical_name": "Korean War",
+    "aliases": [],
+    "start_date": 1950,
+    "end_date": 1953,
+    "date_uncertainty": "approximate",
+    "latitude": 37.566,
+    "longitude": 126.978,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "North Korea / China",
+        "role": "aggressor"
+      },
+      {
+        "name": "South Korea / UN forces",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 2500000,
+    "casualties_high": 4000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "North Korean invasion of the South drew in US/UN and Chinese forces. Ended in stalemate near the original border, leaving Korea divided to this day.",
+    "tags": [
+      "imperial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "0ff4b653-4c6b-431d-9b4e-4bbb51597292",
+    "canonical_name": "First Indochina War",
+    "aliases": [],
+    "start_date": 1946,
+    "end_date": 1954,
+    "date_uncertainty": "approximate",
+    "latitude": 21.381,
+    "longitude": 105.017,
+    "location_precision": "region",
+    "conflict_type": "colonial",
+    "parties": [
+      {
+        "name": "Viet Minh",
+        "role": "aggressor"
+      },
+      {
+        "name": "France",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 400000,
+    "casualties_high": 800000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Vietnamese independence war against French colonial rule. France's defeat at Dien Bien Phu ended European colonialism in Indochina.",
+    "tags": [
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "e6101e68-a084-47b6-92d4-9a1103f481eb",
+    "canonical_name": "Mau Mau Uprising (Kenya)",
+    "aliases": [],
+    "start_date": 1952,
+    "end_date": 1960,
+    "date_uncertainty": "approximate",
+    "latitude": -0.091,
+    "longitude": 36.937,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Mau Mau (Kikuyu)",
+        "role": "aggressor"
+      },
+      {
+        "name": "British Kenya",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 25000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Kikuyu-led uprising against British colonial rule in Kenya. Brutal British suppression included concentration camps, but accelerated Kenyan independence.",
+    "tags": [
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a4eeeef3-9e48-42ee-b574-61af020ef07c",
+    "canonical_name": "Algerian War of Independence",
+    "aliases": [],
+    "start_date": 1954,
+    "end_date": 1962,
+    "date_uncertainty": "approximate",
+    "latitude": 36.752,
+    "longitude": 3.042,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "FLN (Algerian nationalists)",
+        "role": "aggressor"
+      },
+      {
+        "name": "France",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 400000,
+    "casualties_high": 1500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Brutal guerrilla war for Algerian independence from France. French use of torture and mass displacement marked one of decolonisation's bloodiest conflicts.",
+    "tags": [
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "b04e03f8-c998-4788-a6b3-f2a637b47254",
+    "canonical_name": "Vietnam War",
+    "aliases": [],
+    "start_date": 1955,
+    "end_date": 1975,
+    "date_uncertainty": "approximate",
+    "latitude": 16.047,
+    "longitude": 108.22,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "North Vietnam / Viet Cong",
+        "role": "aggressor"
+      },
+      {
+        "name": "South Vietnam / United States",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1500000,
+    "casualties_high": 3500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Cold War proxy conflict in which the US intervened to prevent communist unification of Vietnam. American withdrawal in 1973 led to North Vietnamese victory in 1975.",
+    "tags": [
+      "imperial",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "39d6f663-8d70-446e-acd9-c150bd269c5d",
+    "canonical_name": "Suez Crisis",
+    "aliases": [],
+    "start_date": 1956,
+    "end_date": 1956,
+    "date_uncertainty": "approximate",
+    "latitude": 30.58,
+    "longitude": 32.27,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Israel / Britain / France",
+        "role": "aggressor"
+      },
+      {
+        "name": "Egypt",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 3000,
+    "casualties_high": 5000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Britain, France, and Israel invaded Egypt after Nasser nationalised the Suez Canal. US and Soviet pressure forced withdrawal, ending British and French influence in the Middle East.",
+    "tags": [
+      "resource",
+      "colonial"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "39e2c27c-092f-4b27-9002-71973e2d4e44",
+    "canonical_name": "Tibetan uprising",
+    "aliases": [],
+    "start_date": 1959,
+    "end_date": 1959,
+    "date_uncertainty": "approximate",
+    "latitude": 29.654,
+    "longitude": 91.172,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Tibetan resistance",
+        "role": "aggressor"
+      },
+      {
+        "name": "People's Republic of China",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 86000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Tibetan uprising against Chinese rule was crushed by the PLA. The Dalai Lama fled to India. Marked the definitive end of Tibetan autonomy.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "2d9fe49a-3372-40df-a902-2962f69cc083",
+    "canonical_name": "Congo Crisis",
+    "aliases": [],
+    "start_date": 1960,
+    "end_date": 1965,
+    "date_uncertainty": "approximate",
+    "latitude": -4.322,
+    "longitude": 15.313,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Congolese factions / Belgium / UN",
+        "role": "aggressor"
+      },
+      {
+        "name": "Various",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Chaotic civil war following Congo's independence from Belgium. Lumumba was assassinated, Katanga seceded, and Mobutu eventually seized power.",
+    "tags": [
+      "colonial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "e31af512-6e92-4b59-a840-7b1f5a63cbdd",
+    "canonical_name": "Indo-Pakistani War of 1965",
+    "aliases": [],
+    "start_date": 1965,
+    "end_date": 1965,
+    "date_uncertainty": "approximate",
+    "latitude": 32,
+    "longitude": 74,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Pakistan",
+        "role": "aggressor"
+      },
+      {
+        "name": "India",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 6000,
+    "casualties_high": 7000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Second war between India and Pakistan over Kashmir. Largest tank battles since WWII, ending in UN-brokered ceasefire with no territorial change.",
+    "tags": [
+      "succession",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "d1e3b5a8-406d-4fc3-9d69-5488179967c2",
+    "canonical_name": "Six-Day War",
+    "aliases": [],
+    "start_date": 1967,
+    "end_date": 1967,
+    "date_uncertainty": "approximate",
+    "latitude": 31.5,
+    "longitude": 34.8,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Israel",
+        "role": "aggressor"
+      },
+      {
+        "name": "Egypt / Jordan / Syria",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 35000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Israel launched pre-emptive strikes against Arab neighbours, capturing the Sinai, West Bank, Gaza, and Golan Heights in six days. Reshaped the Middle East permanently.",
+    "tags": [
+      "religious",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "d5f3890b-4368-4d1b-a861-7d8e8da0c56d",
+    "canonical_name": "Biafran War",
+    "aliases": [],
+    "start_date": 1967,
+    "end_date": 1970,
+    "date_uncertainty": "approximate",
+    "latitude": 5.483,
+    "longitude": 7.033,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Nigeria",
+        "role": "aggressor"
+      },
+      {
+        "name": "Biafra",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000000,
+    "casualties_high": 3000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Biafra's secession from Nigeria led to civil war and a devastating blockade. Mass starvation killed more people than combat, particularly children.",
+    "tags": [
+      "succession",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "84ed407a-3e04-41ef-9fda-d658b565d6ea",
+    "canonical_name": "Bangladeshi War of Independence",
+    "aliases": [],
+    "start_date": 1971,
+    "end_date": 1971,
+    "date_uncertainty": "disputed",
+    "latitude": 23.81,
+    "longitude": 90.413,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Bangladesh (Mukti Bahini)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Pakistan",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 300000,
+    "casualties_high": 3000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "East Pakistan's independence war against West Pakistan, supported by India. Pakistani army committed widespread atrocities before surrendering in December 1971.",
+    "tags": [
+      "succession",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.4
+  },
+  {
+    "event_id": "2de359fd-1165-497b-8bb1-452dc3eca0ce",
+    "canonical_name": "Yom Kippur War",
+    "aliases": [],
+    "start_date": 1973,
+    "end_date": 1973,
+    "date_uncertainty": "approximate",
+    "latitude": 30,
+    "longitude": 33,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Egypt / Syria",
+        "role": "aggressor"
+      },
+      {
+        "name": "Israel",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 18000,
+    "casualties_high": 35000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Egypt and Syria launched a surprise attack on Israel during Yom Kippur. Initial Arab successes were reversed, but the war led to the Camp David peace accords.",
+    "tags": [
+      "religious",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "92d08039-d3ef-4fea-b157-e474b38d33dc",
+    "canonical_name": "Cambodian genocide (Khmer Rouge)",
+    "aliases": [],
+    "start_date": 1975,
+    "end_date": 1979,
+    "date_uncertainty": "approximate",
+    "latitude": 11.57,
+    "longitude": 104.921,
+    "location_precision": "region",
+    "conflict_type": "genocide",
+    "parties": [
+      {
+        "name": "Khmer Rouge (Pol Pot)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Cambodian population",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1500000,
+    "casualties_high": 2500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Khmer Rouge regime killed roughly a quarter of Cambodia's population through execution, forced labour, and starvation in pursuit of an agrarian utopia.",
+    "tags": [
+      "genocide",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "5f91112a-1a1f-4272-95d8-af93687027b6",
+    "canonical_name": "Lebanese Civil War",
+    "aliases": [],
+    "start_date": 1975,
+    "end_date": 1990,
+    "date_uncertainty": "approximate",
+    "latitude": 33.894,
+    "longitude": 35.502,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Multiple factions",
+        "role": "aggressor"
+      },
+      {
+        "name": "Multiple factions",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 120000,
+    "casualties_high": 150000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Multi-sided civil war in Lebanon involving sectarian militias, Israel, Syria, and the PLO. Destroyed Beirut and left deep sectarian divisions.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "3b8aed02-e3a8-4ff6-a8f2-b6813d67d570",
+    "canonical_name": "Angolan Civil War",
+    "aliases": [],
+    "start_date": 1975,
+    "end_date": 2002,
+    "date_uncertainty": "approximate",
+    "latitude": -8.838,
+    "longitude": 13.234,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "MPLA (government / Cuba / USSR)",
+        "role": "aggressor"
+      },
+      {
+        "name": "UNITA (US / South Africa)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 800000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Cold War proxy conflict in Angola lasting 27 years. Involved Cuban troops, South African forces, and massive landmine contamination.",
+    "tags": [
+      "succession",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "511d34e6-a60b-45c4-b695-1a778e554f55",
+    "canonical_name": "Ethiopian-Eritrean conflict",
+    "aliases": [],
+    "start_date": 1961,
+    "end_date": 1991,
+    "date_uncertainty": "approximate",
+    "latitude": 15.338,
+    "longitude": 38.932,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Eritrean independence fighters",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ethiopia",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 150000,
+    "casualties_high": 300000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Thirty-year Eritrean war of independence from Ethiopia, one of Africa's longest conflicts. Resulted in Eritrean independence in 1993.",
+    "tags": [
+      "colonial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "eda2871f-18e0-44c6-bc75-eaaeb9bb26b1",
+    "canonical_name": "Soviet-Afghan War",
+    "aliases": [],
+    "start_date": 1979,
+    "end_date": 1989,
+    "date_uncertainty": "approximate",
+    "latitude": 34.528,
+    "longitude": 69.172,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Soviet Union",
+        "role": "aggressor"
+      },
+      {
+        "name": "Afghan Mujahideen",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1000000,
+    "casualties_high": 2000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Soviet invasion to prop up a communist government faced fierce guerrilla resistance backed by the US and Pakistan. The USSR's Vietnam, contributing to its collapse.",
+    "tags": [
+      "imperial",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "a3c2a187-00c8-4f95-9752-3fd0c09828fe",
+    "canonical_name": "Iran-Iraq War",
+    "aliases": [],
+    "start_date": 1980,
+    "end_date": 1988,
+    "date_uncertainty": "approximate",
+    "latitude": 31.321,
+    "longitude": 47.306,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Iraq (Saddam Hussein)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Iran",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 1500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Eight-year war of attrition between Iraq and revolutionary Iran. Featured trench warfare, chemical weapons, and child soldiers. Ended in exhausted stalemate.",
+    "tags": [
+      "religious",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "fd9d92eb-c782-41cc-a0b9-6d3bb5e8a659",
+    "canonical_name": "Falklands War",
+    "aliases": [],
+    "start_date": 1982,
+    "end_date": 1982,
+    "date_uncertainty": "exact",
+    "latitude": -51.796,
+    "longitude": -59.524,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Argentina",
+        "role": "aggressor"
+      },
+      {
+        "name": "United Kingdom",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 900,
+    "casualties_high": 1000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Argentina invaded the Falkland Islands; Britain dispatched a naval task force and retook them in 74 days. A brief, sharp conventional war in the South Atlantic.",
+    "tags": [
+      "succession",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.95
+  },
+  {
+    "event_id": "23fad38b-e038-456f-ab07-3ce4c92e43bd",
+    "canonical_name": "Sri Lankan Civil War",
+    "aliases": [],
+    "start_date": 1983,
+    "end_date": 2009,
+    "date_uncertainty": "approximate",
+    "latitude": 9.661,
+    "longitude": 80.025,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Sri Lankan government",
+        "role": "aggressor"
+      },
+      {
+        "name": "Tamil Tigers (LTTE)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 80000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Decades-long civil war between Sinhalese-dominated government and Tamil separatists. Ended with the military defeat of the LTTE and allegations of war crimes.",
+    "tags": [
+      "succession",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6b5f63ab-b333-4a8a-83d0-8dd25a80650a",
+    "canonical_name": "Mozambican Civil War",
+    "aliases": [],
+    "start_date": 1977,
+    "end_date": 1992,
+    "date_uncertainty": "approximate",
+    "latitude": -25.966,
+    "longitude": 32.573,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "RENAMO (Rhodesia / South Africa)",
+        "role": "aggressor"
+      },
+      {
+        "name": "FRELIMO (Mozambique government)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 600000,
+    "casualties_high": 1000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Devastating proxy war in Mozambique between the Marxist government and RENAMO rebels backed by Rhodesia and apartheid South Africa.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "b1196611-3a78-4172-b5f5-3e2d4498cd79",
+    "canonical_name": "Gulf War",
+    "aliases": [],
+    "start_date": 1990,
+    "end_date": 1991,
+    "date_uncertainty": "approximate",
+    "latitude": 29.376,
+    "longitude": 47.977,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "US-led coalition",
+        "role": "aggressor"
+      },
+      {
+        "name": "Iraq",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 25000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "US-led coalition expelled Iraqi forces from Kuwait in a 42-day air campaign and 100-hour ground war. Demonstrated precision-guided weaponry's dominance.",
+    "tags": [
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "5ae9d547-b376-4d0a-b490-57db2ccba355",
+    "canonical_name": "Somali Civil War",
+    "aliases": [],
+    "start_date": 1991,
+    "end_date": 2025,
+    "date_uncertainty": "approximate",
+    "latitude": 2.047,
+    "longitude": 45.318,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Various factions / al-Shabaab",
+        "role": "aggressor"
+      },
+      {
+        "name": "Somali government / AU forces",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 300000,
+    "casualties_high": 500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "State collapse in Somalia led to clan warfare, warlordism, piracy, and the rise of al-Shabaab. The world's longest-running state failure.",
+    "tags": [
+      "succession",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "f1d6a5ff-39ee-4ee1-80f1-094a9da61176",
+    "canonical_name": "Yugoslav Wars – Croatia",
+    "aliases": [],
+    "start_date": 1991,
+    "end_date": 1995,
+    "date_uncertainty": "approximate",
+    "latitude": 45.1,
+    "longitude": 15.2,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Croatian forces",
+        "role": "aggressor"
+      },
+      {
+        "name": "Serbian forces / JNA",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 20000,
+    "casualties_high": 25000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Croatia's independence war from Yugoslavia. Featured the siege of Vukovar and ethnic cleansing on multiple sides before Croatian military operations ended the conflict.",
+    "tags": [
+      "succession",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "3f85dc12-c397-4180-aa80-ed5b40ac5726",
+    "canonical_name": "Yugoslav Wars – Bosnia",
+    "aliases": [],
+    "start_date": 1992,
+    "end_date": 1995,
+    "date_uncertainty": "approximate",
+    "latitude": 43.856,
+    "longitude": 18.413,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Bosnian Serbs",
+        "role": "aggressor"
+      },
+      {
+        "name": "Bosniak / Croat forces",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 97000,
+    "casualties_high": 105000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Ethnic war following Yugoslavia's breakup. Featured the siege of Sarajevo and the Srebrenica massacre — the worst atrocity in Europe since WWII.",
+    "tags": [
+      "religious",
+      "succession",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c6b4f3ac-1509-4f87-af47-ce9f78c7cced",
+    "canonical_name": "Rwandan Genocide",
+    "aliases": [],
+    "start_date": 1994,
+    "end_date": 1994,
+    "date_uncertainty": "approximate",
+    "latitude": -1.94,
+    "longitude": 29.873,
+    "location_precision": "region",
+    "conflict_type": "genocide",
+    "parties": [
+      {
+        "name": "Hutu extremists",
+        "role": "aggressor"
+      },
+      {
+        "name": "Tutsi population",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 1000000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "In 100 days, Hutu extremists massacred roughly 800,000 Tutsis and moderate Hutus. The international community's failure to intervene remains a defining shame.",
+    "tags": [
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ff237054-0e0e-4251-bc81-29342b602a46",
+    "canonical_name": "First Chechen War",
+    "aliases": [],
+    "start_date": 1994,
+    "end_date": 1996,
+    "date_uncertainty": "approximate",
+    "latitude": 43.317,
+    "longitude": 45.694,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Chechen separatists",
+        "role": "aggressor"
+      },
+      {
+        "name": "Russian Federation",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Chechen bid for independence from Russia led to brutal urban warfare in Grozny. Russia withdrew, granting de facto independence.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "91071c54-74c2-48f1-a27e-9a31de9c5804",
+    "canonical_name": "Yugoslav Wars – Kosovo",
+    "aliases": [],
+    "start_date": 1998,
+    "end_date": 1999,
+    "date_uncertainty": "approximate",
+    "latitude": 42.663,
+    "longitude": 21.165,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "NATO / KLA",
+        "role": "aggressor"
+      },
+      {
+        "name": "Serbia (Milošević)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 10000,
+    "casualties_high": 13000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Serbian ethnic cleansing of Kosovo Albanians prompted NATO air strikes — the first time NATO used force without UN authorization.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "1dedbae2-6188-4dd5-a211-b26e1e245ff6",
+    "canonical_name": "Second Congo War",
+    "aliases": [],
+    "start_date": 1998,
+    "end_date": 2003,
+    "date_uncertainty": "approximate",
+    "latitude": -1.679,
+    "longitude": 29.234,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Rwanda / Uganda / rebels",
+        "role": "aggressor"
+      },
+      {
+        "name": "DRC / Zimbabwe / Angola",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 2500000,
+    "casualties_high": 5400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Africa's deadliest conflict, involving nine nations. Most deaths from disease and starvation caused by the collapse of infrastructure.",
+    "tags": [
+      "resource",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "44be5c8b-8360-4389-b299-7f43a941ecc3",
+    "canonical_name": "Second Chechen War",
+    "aliases": [],
+    "start_date": 1999,
+    "end_date": 2009,
+    "date_uncertainty": "approximate",
+    "latitude": 43.317,
+    "longitude": 45.694,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Russian Federation",
+        "role": "aggressor"
+      },
+      {
+        "name": "Chechen separatists",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Russia re-invaded Chechnya under Putin, destroying Grozny and establishing direct federal control. Massive civilian casualties and human rights abuses.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "d1dc921e-487a-4974-9653-557382a48bf3",
+    "canonical_name": "Ethiopian-Eritrean War",
+    "aliases": [],
+    "start_date": 1998,
+    "end_date": 2000,
+    "date_uncertainty": "approximate",
+    "latitude": 14.8,
+    "longitude": 39.5,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Ethiopia",
+        "role": "aggressor"
+      },
+      {
+        "name": "Eritrea",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 70000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Conventional trench warfare between former allies over a disputed border. One of the deadliest interstate wars of the late 20th century.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ace77c58-a563-429a-99de-1873e8241bfb",
+    "canonical_name": "War in Afghanistan",
+    "aliases": [],
+    "start_date": 2001,
+    "end_date": 2021,
+    "date_uncertainty": "approximate",
+    "latitude": 34.528,
+    "longitude": 69.172,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "US / NATO / Afghan government",
+        "role": "aggressor"
+      },
+      {
+        "name": "Taliban / al-Qaeda",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 170000,
+    "casualties_high": 250000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "US invaded Afghanistan after 9/11 to destroy al-Qaeda and topple the Taliban. Twenty years later, the Taliban returned to power as the US withdrew.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "2acb001f-a206-46ff-8cfc-9903d9bf65e2",
+    "canonical_name": "Iraq War",
+    "aliases": [],
+    "start_date": 2003,
+    "end_date": 2011,
+    "date_uncertainty": "approximate",
+    "latitude": 33.315,
+    "longitude": 44.366,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "US-led coalition",
+        "role": "aggressor"
+      },
+      {
+        "name": "Iraq (Saddam Hussein) / insurgents",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 150000,
+    "casualties_high": 600000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "US invasion toppled Saddam Hussein but unleashed sectarian civil war and the rise of ISIS. No weapons of mass destruction were found.",
+    "tags": [
+      "resource",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "1023f8fb-0a62-42d5-b0e4-0525f045b647",
+    "canonical_name": "Darfur conflict",
+    "aliases": [],
+    "start_date": 2003,
+    "end_date": 2010,
+    "date_uncertainty": "approximate",
+    "latitude": 13.5,
+    "longitude": 25,
+    "location_precision": "region",
+    "conflict_type": "genocide",
+    "parties": [
+      {
+        "name": "Sudanese government / Janjaweed",
+        "role": "aggressor"
+      },
+      {
+        "name": "Darfuri groups",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 200000,
+    "casualties_high": 400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Sudanese government-backed militias committed genocide against ethnic groups in Darfur. Hundreds of thousands killed, millions displaced.",
+    "tags": [
+      "genocide",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "04e0c0eb-c909-40d3-9112-7bef24f04e93",
+    "canonical_name": "Second Lebanon War",
+    "aliases": [],
+    "start_date": 2006,
+    "end_date": 2006,
+    "date_uncertainty": "approximate",
+    "latitude": 33.273,
+    "longitude": 35.204,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Israel",
+        "role": "aggressor"
+      },
+      {
+        "name": "Hezbollah",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 1500,
+    "casualties_high": 2000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Israel's 34-day war against Hezbollah in southern Lebanon after Hezbollah cross-border raid. Heavy Lebanese civilian casualties and inconclusive military result.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "e35d475e-1ed7-408e-b3cd-fd1fe09d6ee4",
+    "canonical_name": "Russo-Georgian War",
+    "aliases": [],
+    "start_date": 2008,
+    "end_date": 2008,
+    "date_uncertainty": "approximate",
+    "latitude": 42.23,
+    "longitude": 43.97,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Russia",
+        "role": "aggressor"
+      },
+      {
+        "name": "Georgia",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 850,
+    "casualties_high": 1500,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Russia invaded Georgia over the breakaway regions of South Ossetia and Abkhazia. Five-day war established a pattern of Russian military intervention in former Soviet states.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ab936b40-2945-4d3f-a31b-a4f3dba5f6c8",
+    "canonical_name": "Syrian Civil War",
+    "aliases": [],
+    "start_date": 2011,
+    "end_date": 2024,
+    "date_uncertainty": "approximate",
+    "latitude": 33.513,
+    "longitude": 36.293,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Syrian opposition / ISIS / SDF",
+        "role": "aggressor"
+      },
+      {
+        "name": "Assad government / Russia / Iran",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 500000,
+    "casualties_high": 610000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Arab Spring protests escalated into multi-sided civil war. Involved Assad, rebels, ISIS, Kurdish forces, Russia, Turkey, Iran, and the US. Displaced half of Syria's population.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "269c1700-59f2-463c-933d-a5632a1af93e",
+    "canonical_name": "Libyan Civil War",
+    "aliases": [],
+    "start_date": 2011,
+    "end_date": 2020,
+    "date_uncertainty": "approximate",
+    "latitude": 32.902,
+    "longitude": 13.18,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Rebel forces / NATO",
+        "role": "aggressor"
+      },
+      {
+        "name": "Gaddafi government",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 30000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "NATO-backed uprising overthrew Gaddafi, followed by years of factional warfare between rival governments, militias, and ISIS affiliates.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "135fa0d7-49f9-407d-9644-4d2369dbf386",
+    "canonical_name": "Rise and fall of ISIS",
+    "aliases": [],
+    "start_date": 2013,
+    "end_date": 2019,
+    "date_uncertainty": "approximate",
+    "latitude": 35.468,
+    "longitude": 42.458,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Islamic State (ISIS)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Iraq / Syria / Kurdish forces / US coalition",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 100000,
+    "casualties_high": 200000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "ISIS declared a caliphate across Iraq and Syria, committing genocidal violence against Yazidis, Christians, and Shia Muslims before being territorially defeated.",
+    "tags": [
+      "religious",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "e71ef7a5-7bb5-4060-a4ab-7677b3e3d089",
+    "canonical_name": "Yemeni Civil War",
+    "aliases": [],
+    "start_date": 2014,
+    "end_date": 2024,
+    "date_uncertainty": "approximate",
+    "latitude": 15.37,
+    "longitude": 44.191,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Houthi movement / Iran",
+        "role": "aggressor"
+      },
+      {
+        "name": "Yemeni government / Saudi coalition",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 150000,
+    "casualties_high": 377000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Houthi rebels seized the capital, drawing a Saudi-led military intervention. Created the world's worst humanitarian crisis with mass famine and cholera outbreaks.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "fa0dac52-e137-4e27-bbd0-a907e1e708fd",
+    "canonical_name": "War in Donbas",
+    "aliases": [],
+    "start_date": 2014,
+    "end_date": 2022,
+    "date_uncertainty": "approximate",
+    "latitude": 48,
+    "longitude": 37.8,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Russian-backed separatists",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ukraine",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 14000,
+    "casualties_high": 14000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Russia-backed separatists seized parts of eastern Ukraine after Russia's annexation of Crimea. Eight years of low-intensity conflict preceded Russia's full-scale invasion.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "ec5a3689-b625-485c-a9e9-09c1efb437b1",
+    "canonical_name": "Boko Haram insurgency",
+    "aliases": [],
+    "start_date": 2009,
+    "end_date": 2025,
+    "date_uncertainty": "approximate",
+    "latitude": 11.846,
+    "longitude": 13.16,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Boko Haram / ISWAP",
+        "role": "aggressor"
+      },
+      {
+        "name": "Nigeria / Multinational Joint Task Force",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Islamist insurgency in northeastern Nigeria and the Lake Chad basin. Known for mass abductions (Chibok schoolgirls), suicide bombings, and millions displaced.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6899bfd1-8661-47d2-b5f3-41dedc4de07b",
+    "canonical_name": "South Sudanese Civil War",
+    "aliases": [],
+    "start_date": 2013,
+    "end_date": 2020,
+    "date_uncertainty": "approximate",
+    "latitude": 4.852,
+    "longitude": 31.578,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "SPLA-IO (Machar)",
+        "role": "aggressor"
+      },
+      {
+        "name": "SPLA (Kiir government)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 190000,
+    "casualties_high": 400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Civil war erupted just two years after South Sudan's independence, driven by ethnic rivalry between Dinka and Nuer. Massive humanitarian crisis.",
+    "tags": [
+      "succession",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "e4f19122-4f65-42c9-9390-3ae78946db82",
+    "canonical_name": "Tigray War",
+    "aliases": [],
+    "start_date": 2020,
+    "end_date": 2022,
+    "date_uncertainty": "approximate",
+    "latitude": 13.497,
+    "longitude": 39.476,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Ethiopian federal government / Eritrea",
+        "role": "aggressor"
+      },
+      {
+        "name": "TPLF (Tigray)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 300000,
+    "casualties_high": 600000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Ethiopian government and Eritrean forces fought Tigray's regional government. Mass atrocities, famine as a weapon, and one of the 21st century's deadliest conflicts.",
+    "tags": [
+      "succession",
+      "genocide"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "c1c6573f-2bd2-4d4f-b727-56dd5961ce19",
+    "canonical_name": "Russo-Ukrainian War",
+    "aliases": [],
+    "start_date": 2022,
+    "end_date": 2025,
+    "date_uncertainty": "approximate",
+    "latitude": 48.379,
+    "longitude": 35.044,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Russia",
+        "role": "aggressor"
+      },
+      {
+        "name": "Ukraine",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 200000,
+    "casualties_high": 500000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Russia's full-scale invasion of Ukraine, the largest land war in Europe since WWII. Trench warfare, drone warfare, and nuclear brinkmanship define the conflict.",
+    "tags": [
+      "imperial",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "6dd0385d-b552-43d9-9f8e-46e34388d31e",
+    "canonical_name": "Israel-Hamas War (Gaza)",
+    "aliases": [],
+    "start_date": 2023,
+    "end_date": 2025,
+    "date_uncertainty": "approximate",
+    "latitude": 31.354,
+    "longitude": 34.308,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Israel",
+        "role": "aggressor"
+      },
+      {
+        "name": "Hamas / Palestinian factions",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 40000,
+    "casualties_high": 50000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Triggered by the Hamas October 7 attack, Israel launched a devastating air and ground campaign in Gaza. Massive civilian casualties and allegations of genocide.",
+    "tags": [
+      "religious",
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "0212f075-684e-494c-a84f-95c9c9c8fc8a",
+    "canonical_name": "Myanmar Civil War",
+    "aliases": [],
+    "start_date": 2021,
+    "end_date": 2025,
+    "date_uncertainty": "approximate",
+    "latitude": 19.764,
+    "longitude": 96.078,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "Resistance forces (NUG / ethnic armies)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Military junta (Tatmadaw)",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Following the 2021 military coup, a nationwide resistance movement and ethnic armed organizations have waged war against the junta across Myanmar.",
+    "tags": [
+      "succession"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "f79e4542-1e8d-4866-8f27-bad9a5bf1cff",
+    "canonical_name": "Sudan Civil War",
+    "aliases": [],
+    "start_date": 2023,
+    "end_date": 2025,
+    "date_uncertainty": "approximate",
+    "latitude": 15.5,
+    "longitude": 32.56,
+    "location_precision": "region",
+    "conflict_type": "civil",
+    "parties": [
+      {
+        "name": "RSF (Rapid Support Forces)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Sudanese Armed Forces",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 150000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Power struggle between Sudan's two military factions escalated into full-scale war, causing mass displacement and ethnic violence in Darfur reminiscent of the 2003 genocide.",
+    "tags": [
+      "succession",
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "92321204-2cb1-436a-8507-09e07d568bb4",
+    "canonical_name": "Sahel insurgencies (Mali, Burkina Faso, Niger)",
+    "aliases": [],
+    "start_date": 2012,
+    "end_date": 2025,
+    "date_uncertainty": "approximate",
+    "latitude": 14,
+    "longitude": -2,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Jihadist groups (JNIM / ISGS)",
+        "role": "aggressor"
+      },
+      {
+        "name": "Sahel governments / France / Wagner",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 50000,
+    "casualties_high": 100000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Islamist insurgencies spread across the Sahel after the collapse of Libya. Military coups, French withdrawal, and Wagner Group intervention have destabilised the entire region.",
+    "tags": [
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "082381b9-9372-4651-8c93-1f321d7e2d12",
+    "canonical_name": "Nagorno-Karabakh War (2020)",
+    "aliases": [],
+    "start_date": 2020,
+    "end_date": 2020,
+    "date_uncertainty": "approximate",
+    "latitude": 39.8,
+    "longitude": 46.8,
+    "location_precision": "region",
+    "conflict_type": "interstate",
+    "parties": [
+      {
+        "name": "Azerbaijan",
+        "role": "aggressor"
+      },
+      {
+        "name": "Armenia / Artsakh",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 7000,
+    "casualties_high": 10000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [
+      "multiple"
+    ],
+    "summary": "Azerbaijan recaptured most of Nagorno-Karabakh from Armenian forces using Turkish-supplied drones. A watershed for drone warfare in conventional conflicts.",
+    "tags": [
+      "succession",
+      "religious"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  },
+  {
+    "event_id": "576a1d5f-c928-46f1-bc79-885a16bcdaa0",
+    "canonical_name": "Drug war violence in Mexico",
+    "aliases": [],
+    "start_date": 2006,
+    "end_date": 2025,
+    "date_uncertainty": "approximate",
+    "latitude": 23.634,
+    "longitude": -102.553,
+    "location_precision": "region",
+    "conflict_type": "insurgency",
+    "parties": [
+      {
+        "name": "Drug cartels",
+        "role": "aggressor"
+      },
+      {
+        "name": "Mexican government / civilians",
+        "role": "defender"
+      }
+    ],
+    "casualties_low": 350000,
+    "casualties_high": 400000,
+    "casualty_basis": "scholarly_estimate",
+    "religion_tags": [],
+    "summary": "Ongoing conflict between drug cartels and the Mexican state has killed more than the wars in Afghanistan and Iraq combined. Mass graves, disappearances, and narco-state dynamics.",
+    "tags": [
+      "resource"
+    ],
+    "source_dataset": "manual",
+    "source_refs": [],
+    "confidence": 0.7
+  }
+]

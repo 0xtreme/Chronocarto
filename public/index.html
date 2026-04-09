@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chronocarto — A Spatiotemporal Atlas of Human Conflict</title>
+  <meta name="description" content="Watch 5,000 years of human conflict unfold on a single interactive map. Scrub through time and see the persistent patterns of war across geography." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- MapLibre GL -->
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.css" />
+  <script src="https://unpkg.com/maplibre-gl@5.1.0/dist/maplibre-gl.js"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── Map ──────────────────────────────────────────────────── -->
+  <div id="map"></div>
+
+  <!-- ── Title bar ────────────────────────────────────────────── -->
+  <header id="title-bar">
+    <h1>Chronocarto</h1>
+    <span class="subtitle">A Spatiotemporal Atlas of Human Conflict</span>
+  </header>
+
+  <!-- ── Filters (top-left) ───────────────────────────────────── -->
+  <aside id="filters-panel" aria-label="Filters">
+    <details open>
+      <summary>Conflict Type</summary>
+      <div class="chip-group" id="type-filters"></div>
+    </details>
+    <details>
+      <summary>Min. Casualties</summary>
+      <div class="range-row">
+        <input type="range" id="casualty-slider" min="0" max="7" step="1" value="0" />
+        <span id="casualty-label">Any</span>
+      </div>
+    </details>
+  </aside>
+
+  <!-- ── Era presets (top-right) ──────────────────────────────── -->
+  <nav id="era-presets" aria-label="Era presets">
+    <button data-start="-3000" data-end="-500">Antiquity</button>
+    <button data-start="-500" data-end="500">Classical</button>
+    <button data-start="500" data-end="1500">Medieval</button>
+    <button data-start="1500" data-end="1800">Early Modern</button>
+    <button data-start="1800" data-end="1914">Industrial</button>
+    <button data-start="1914" data-end="1991">Modern</button>
+    <button data-start="1991" data-end="2026">Contemporary</button>
+    <button data-start="-3000" data-end="2026" class="active">All Time</button>
+  </nav>
+
+  <!-- ── Event detail panel (right slide-out) ─────────────────── -->
+  <aside id="detail-panel" class="hidden" aria-label="Event detail">
+    <button id="detail-close" aria-label="Close">&times;</button>
+    <h2 id="detail-name"></h2>
+    <div id="detail-meta" class="detail-section"></div>
+    <div id="detail-parties" class="detail-section"></div>
+    <p id="detail-summary"></p>
+    <div id="detail-sources" class="detail-section"></div>
+  </aside>
+
+  <!-- ── Timeline scrubber (bottom) ───────────────────────────── -->
+  <footer id="timeline">
+    <div id="timeline-controls">
+      <button id="play-btn" aria-label="Play / Pause" title="Play / Pause (Space)">&#9654;</button>
+      <span id="speed-label" title="Playback speed">1&times;</span>
+    </div>
+    <div id="timeline-track">
+      <div id="range-highlight"></div>
+      <input type="range" id="range-start" />
+      <input type="range" id="range-end" />
+      <div id="timeline-labels"></div>
+    </div>
+    <div id="timeline-readout">
+      <span id="readout-start"></span>
+      <span class="readout-sep">&mdash;</span>
+      <span id="readout-end"></span>
+    </div>
+    <div id="event-count"><span id="count-num">0</span> conflicts in view</div>
+  </footer>
+
+  <!-- ── Legend ────────────────────────────────────────────────── -->
+  <div id="legend">
+    <div class="legend-row"><span class="swatch" style="background:var(--c-interstate)"></span> Interstate</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--c-civil)"></span> Civil</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--c-religious)"></span> Religious</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--c-insurgency)"></span> Insurgency</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--c-genocide)"></span> Genocide</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--c-colonial)"></span> Colonial</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--c-raid)"></span> Raid</div>
+    <div class="legend-row"><span class="swatch" style="background:var(--c-succession)"></span> Succession</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
