@@ -420,6 +420,69 @@
     return Math.min(6 + Math.log10(cas) * 3, 32);
   }
 
+  /* ── Contested ground computation ─────────────────────────────── */
+  const ERAS = [
+    { name: "Antiquity",    min: -3000, max: -500 },
+    { name: "Classical",    min: -500,  max: 500 },
+    { name: "Medieval",     min: 500,   max: 1500 },
+    { name: "Early Modern", min: 1500,  max: 1800 },
+    { name: "Industrial",   min: 1800,  max: 1914 },
+    { name: "Modern",       min: 1914,  max: 1991 },
+    { name: "Contemporary", min: 1991,  max: 2030 },
+  ];
+
+  function getEra(year) {
+    for (const e of ERAS) { if (year >= e.min && year < e.max) return e.name; }
+    return null;
+  }
+
+  function buildContestedGround(events) {
+    // Grid: 2° cells (roughly 200km at equator)
+    const CELL_SIZE = 2;
+    const cells = new Map(); // "lat,lng" → Set of era names
+
+    for (const ev of events) {
+      const cellLat = Math.floor(ev.latitude / CELL_SIZE) * CELL_SIZE;
+      const cellLng = Math.floor(ev.longitude / CELL_SIZE) * CELL_SIZE;
+      const key = `${cellLat},${cellLng}`;
+
+      if (!cells.has(key)) cells.set(key, new Set());
+      // An event can span multiple eras
+      const startEra = getEra(ev.start_date);
+      const endEra = getEra(ev.end_date);
+      if (startEra) cells.get(key).add(startEra);
+      if (endEra && endEra !== startEra) cells.get(key).add(endEra);
+    }
+
+    // Build GeoJSON polygons for cells with 3+ eras
+    const features = [];
+    for (const [key, eras] of cells) {
+      if (eras.size < 3) continue;
+      const [lat, lng] = key.split(",").map(Number);
+      features.push({
+        type: "Feature",
+        geometry: {
+          type: "Polygon",
+          coordinates: [[
+            [lng, lat],
+            [lng + CELL_SIZE, lat],
+            [lng + CELL_SIZE, lat + CELL_SIZE],
+            [lng, lat + CELL_SIZE],
+            [lng, lat],
+          ]],
+        },
+        properties: {
+          era_count: eras.size,
+          eras: [...eras].join(", "),
+        },
+      });
+    }
+
+    return { type: "FeatureCollection", features };
+  }
+
+  let contestedVisible = false;
+
   /* ── Filter logic ─────────────────────────────────────────────── */
   let mapReady = false;
   function applyFilters() {
@@ -453,6 +516,52 @@
       cluster: true,
       clusterMaxZoom: 6,
       clusterRadius: 50,
+    });
+
+    // Contested ground layer
+    const contestedData = buildContestedGround(allEvents);
+    map.addSource("contested", { type: "geojson", data: contestedData });
+
+    map.addLayer({
+      id: "contested-fill",
+      type: "fill",
+      source: "contested",
+      paint: {
+        "fill-color": [
+          "interpolate", ["linear"], ["get", "era_count"],
+          3, "rgba(255, 60, 60, 0.08)",
+          5, "rgba(255, 60, 60, 0.18)",
+          7, "rgba(255, 40, 40, 0.28)",
+        ],
+        "fill-outline-color": "rgba(255, 80, 80, 0.25)",
+      },
+      layout: { visibility: "none" },
+    }, "carto-dark-layer");  // place under everything
+
+    map.addLayer({
+      id: "contested-outline",
+      type: "line",
+      source: "contested",
+      paint: {
+        "line-color": [
+          "interpolate", ["linear"], ["get", "era_count"],
+          3, "rgba(255, 80, 80, 0.15)",
+          5, "rgba(255, 80, 80, 0.3)",
+          7, "rgba(255, 60, 60, 0.45)",
+        ],
+        "line-width": 1,
+      },
+      layout: { visibility: "none" },
+    });
+
+    // Contested ground tooltip
+    map.on("click", "contested-fill", (e) => {
+      if (!contestedVisible) return;
+      const props = e.features[0].properties;
+      new maplibregl.Popup({ className: "conflict-popup" })
+        .setLngLat(e.lngLat)
+        .setHTML(`<strong>Contested Ground</strong><br>${props.era_count} eras of conflict<br><span style="color:var(--text-muted)">${props.eras}</span>`)
+        .addTo(map);
     });
 
     // Heatmap layer — always visible, fades at high zoom
@@ -846,6 +955,15 @@
     clearTimeout(hashTimeout);
     hashTimeout = setTimeout(writeHash, 400);
   }
+
+  /* ── Contested ground toggle ───────────────────────────────────── */
+  document.getElementById("contested-btn").addEventListener("click", () => {
+    contestedVisible = !contestedVisible;
+    const vis = contestedVisible ? "visible" : "none";
+    map.setLayoutProperty("contested-fill", "visibility", vis);
+    map.setLayoutProperty("contested-outline", "visibility", vis);
+    document.getElementById("contested-btn").classList.toggle("active", contestedVisible);
+  });
 
   /* ── Info panel ────────────────────────────────────────────────── */
   document.getElementById("info-btn").addEventListener("click", () => {

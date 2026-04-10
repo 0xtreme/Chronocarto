@@ -587,6 +587,32 @@ button { font-family: inherit; cursor: pointer; }
   margin-top: 6px;
 }
 
+/* ── Contested ground button ────────────────────────────────────── */
+#contested-btn {
+  position: absolute;
+  top: 16px;
+  right: 56px;
+  z-index: 10;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  backdrop-filter: blur(var(--panel-blur));
+  color: var(--text-muted);
+  font-family: var(--font-heading);
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+#contested-btn:hover { background: rgba(255,60,60,0.15); color: var(--text); }
+#contested-btn.active {
+  background: rgba(255, 60, 60, 0.25);
+  border-color: rgba(255, 60, 60, 0.5);
+  color: #ff6666;
+}
+
 /* ── Info button & panel ───────────────────────────────────────── */
 #info-btn {
   position: absolute;
@@ -756,6 +782,7 @@ button { font-family: inherit; cursor: pointer; }
     max-height: 50vh;
   }
   #info-panel.hidden { transform: translateY(100%); }
+  #contested-btn { top: 10px; right: 44px; font-size: 0.6rem; padding: 4px 10px; }
   #info-btn { top: 10px; right: 8px; width: 28px; height: 28px; font-size: 0.75rem; }
 
   #legend { display: none; }
