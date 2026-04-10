@@ -175,6 +175,7 @@
     style: {
       version: 8,
       name: "Chronocarto Dark",
+      glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
       sources: {
         "carto-dark": {
           type: "raster",
