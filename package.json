@@ -8,8 +8,11 @@
     "fetch:data": "node scripts/fetch-data.mjs",
     "build:data": "node scripts/build-dataset.mjs",
     "sync:pages": "node scripts/sync-pages-assets.mjs",
-    "build": "npm run build:data && npm run sync:pages",
+    "merge:data": "node scripts/merge-datasets.mjs",
+    "build": "npm run build:data && npm run merge:data && npm run sync:pages",
     "serve": "python3 -m http.server 4173 -d public"
   },
-  "dependencies": {}
+  "dependencies": {
+    "csv-parse": "^6.2.1"
+  }
 }
