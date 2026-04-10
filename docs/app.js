@@ -439,6 +439,7 @@
 
     const src = map.getSource("conflicts");
     if (src) src.setData(filteredGeoJSON);
+    scheduleHashWrite();
   }
 
   /* ── Map layers ───────────────────────────────────────────────── */
@@ -595,7 +596,18 @@
     map.on("mouseleave", "conflicts-circle", () => popup.remove());
 
     mapReady = true;
+
+    // Read URL hash to restore state
+    if (readHash()) {
+      updateSliderUI();
+      clearEraActive();
+    }
+
     applyFilters();
+    drawSparkline();
+
+    // Sync hash on map move
+    map.on("moveend", scheduleHashWrite);
   }
 
   function clearEraActive() {
@@ -637,6 +649,142 @@
     }
   });
 
+  /* ── Search ────────────────────────────────────────────────────── */
+  const $searchInput   = document.getElementById("search-input");
+  const $searchResults = document.getElementById("search-results");
+  let searchTimeout = null;
+
+  $searchInput.addEventListener("input", () => {
+    clearTimeout(searchTimeout);
+    const q = $searchInput.value.trim().toLowerCase();
+    if (q.length < 2) { $searchResults.classList.add("hidden"); return; }
+    searchTimeout = setTimeout(() => {
+      const matches = allEvents
+        .filter((ev) => ev.canonical_name.toLowerCase().includes(q))
+        .slice(0, 12);
+      if (matches.length === 0) {
+        $searchResults.innerHTML = '<div class="search-empty">No results</div>';
+      } else {
+        $searchResults.innerHTML = matches
+          .map((ev) => {
+            const colour = TYPE_COLOURS[ev.conflict_type] || "#888";
+            return `<div class="search-item" data-id="${ev.event_id}">
+              <span class="search-dot" style="background:${colour}"></span>
+              <span class="search-name">${ev.canonical_name}</span>
+              <span class="search-date">${fmtYear(ev.start_date)}</span>
+            </div>`;
+          })
+          .join("");
+      }
+      $searchResults.classList.remove("hidden");
+    }, 150);
+  });
+
+  $searchResults.addEventListener("click", (e) => {
+    const item = e.target.closest(".search-item");
+    if (!item) return;
+    const ev = allEvents.find((d) => d.event_id === item.dataset.id);
+    if (!ev) return;
+
+    // Adjust time range to include this event
+    const padding = Math.max(50, Math.abs(ev.end_date - ev.start_date) * 2);
+    rangeStart = ev.start_date - padding;
+    rangeEnd = ev.end_date + padding;
+    updateSliderUI();
+    clearEraActive();
+    applyFilters();
+
+    // Fly to location
+    map.flyTo({ center: [ev.longitude, ev.latitude], zoom: 6, duration: 1500 });
+
+    // Show detail
+    showDetail(ev);
+
+    // Clean up search
+    $searchInput.value = "";
+    $searchResults.classList.add("hidden");
+  });
+
+  // Close search on click outside
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest("#search-box")) $searchResults.classList.add("hidden");
+  });
+
+  // Close search on Escape
+  $searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { $searchInput.blur(); $searchResults.classList.add("hidden"); }
+  });
+
+  /* ── Timeline sparkline ───────────────────────────────────────── */
+  const $sparkline = document.getElementById("sparkline");
+  const sparkCtx = $sparkline.getContext("2d");
+
+  function drawSparkline() {
+    const W = $sparkline.parentElement.clientWidth;
+    const H = 24;
+    $sparkline.width = W * devicePixelRatio;
+    $sparkline.height = H * devicePixelRatio;
+    $sparkline.style.width = W + "px";
+    $sparkline.style.height = H + "px";
+    sparkCtx.scale(devicePixelRatio, devicePixelRatio);
+
+    // Bucket events into time bins
+    const BINS = Math.min(W, 200);
+    const buckets = new Float32Array(BINS);
+    for (const ev of allEvents) {
+      const startBin = Math.floor(((ev.start_date - MIN_YEAR) / YEAR_SPAN) * BINS);
+      const endBin = Math.floor(((ev.end_date - MIN_YEAR) / YEAR_SPAN) * BINS);
+      for (let b = Math.max(0, startBin); b <= Math.min(BINS - 1, endBin); b++) {
+        buckets[b]++;
+      }
+    }
+
+    const maxVal = Math.max(...buckets, 1);
+
+    sparkCtx.clearRect(0, 0, W, H);
+    const barW = W / BINS;
+    for (let i = 0; i < BINS; i++) {
+      const h = (buckets[i] / maxVal) * H * 0.85;
+      const alpha = 0.15 + (buckets[i] / maxVal) * 0.35;
+      sparkCtx.fillStyle = `rgba(233, 69, 96, ${alpha})`;
+      sparkCtx.fillRect(i * barW, H - h, barW + 0.5, h);
+    }
+  }
+
+  /* ── URL hash sync ────────────────────────────────────────────── */
+  function readHash() {
+    const hash = window.location.hash.slice(1);
+    if (!hash) return false;
+    const params = new URLSearchParams(hash);
+    let changed = false;
+    if (params.has("s") && params.has("e")) {
+      rangeStart = Math.max(MIN_YEAR, parseInt(params.get("s"), 10));
+      rangeEnd = Math.min(MAX_YEAR, parseInt(params.get("e"), 10));
+      changed = true;
+    }
+    if (params.has("z") && params.has("lat") && params.has("lng")) {
+      map.jumpTo({
+        center: [parseFloat(params.get("lng")), parseFloat(params.get("lat"))],
+        zoom: parseFloat(params.get("z")),
+      });
+    }
+    return changed;
+  }
+
+  function writeHash() {
+    const c = map.getCenter();
+    const z = map.getZoom().toFixed(1);
+    const hash = `s=${rangeStart}&e=${rangeEnd}&z=${z}&lat=${c.lat.toFixed(2)}&lng=${c.lng.toFixed(2)}`;
+    history.replaceState(null, "", "#" + hash);
+  }
+
+  // Debounced hash writer
+  let hashTimeout = null;
+  function scheduleHashWrite() {
+    clearTimeout(hashTimeout);
+    hashTimeout = setTimeout(writeHash, 400);
+  }
+
   /* ── Info panel ────────────────────────────────────────────────── */
   document.getElementById("info-btn").addEventListener("click", () => {
     document.getElementById("info-panel").classList.toggle("hidden");
@@ -649,4 +797,5 @@
   initSlider();
   buildTypeFilters();
   map.on("load", loadData);
+  window.addEventListener("resize", () => { if (allEvents.length) drawSparkline(); });
 })();

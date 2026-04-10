@@ -29,6 +29,12 @@
     <span class="subtitle">A Spatiotemporal Atlas of Human Conflict</span>
   </header>
 
+  <!-- ── Search ───────────────────────────────────────────────── -->
+  <div id="search-box">
+    <input type="text" id="search-input" placeholder="Search conflicts..." autocomplete="off" />
+    <div id="search-results" class="hidden"></div>
+  </div>
+
   <!-- ── Filters (top-left) ───────────────────────────────────── -->
   <aside id="filters-panel" aria-label="Filters">
     <details open>
@@ -74,6 +80,7 @@
       <span id="speed-label" title="Playback speed">10&times;</span>
     </div>
     <div id="timeline-track">
+      <canvas id="sparkline" height="24"></canvas>
       <div id="track-bg"></div>
       <div id="range-highlight"></div>
       <div id="thumb-start" class="thumb" aria-label="Range start"></div>
