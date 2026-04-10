@@ -201,7 +201,6 @@
     zoom: 2.2,
     minZoom: 1.5,
     maxZoom: 14,
-    maxBounds: [[-180, -85], [180, 85]],
     renderWorldCopies: false,
     attributionControl: true,
   });
@@ -421,7 +420,9 @@
   }
 
   /* ── Filter logic ─────────────────────────────────────────────── */
+  let mapReady = false;
   function applyFilters() {
+    if (!mapReady) return;
     const filtered = allEvents.filter((ev) => {
       if (ev.end_date < rangeStart || ev.start_date > rangeEnd) return false;
       if (!activeTypes.has(ev.conflict_type)) return false;
@@ -592,6 +593,7 @@
     });
     map.on("mouseleave", "conflicts-circle", () => popup.remove());
 
+    mapReady = true;
     applyFilters();
   }
 

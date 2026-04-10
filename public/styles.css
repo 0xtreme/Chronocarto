@@ -634,11 +634,62 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ── Responsive ─────────────────────────────────────────────────── */
 @media (max-width: 768px) {
-  #filters-panel { width: 170px; padding: 10px; }
+  #title-bar h1 { font-size: 1rem; }
+  #title-bar .subtitle { font-size: 0.6rem; }
+
+  #filters-panel {
+    top: 60px;
+    left: 8px;
+    width: 160px;
+    padding: 8px;
+    max-height: calc(100vh - 170px);
+  }
+  .chip { font-size: 0.6rem; padding: 3px 7px; }
+  .chip-group { grid-template-columns: 1fr 1fr; gap: 4px; }
+
   #era-presets { display: none; }
-  #detail-panel { width: calc(100vw - 32px); right: 16px; }
+
+  #detail-panel {
+    top: auto;
+    bottom: calc(var(--timeline-h) + 24px);
+    right: 8px;
+    left: 8px;
+    width: auto;
+    max-height: 50vh;
+    padding: 14px;
+  }
+  #detail-panel.hidden { transform: translateY(100%); }
+
+  #info-panel {
+    top: auto;
+    bottom: 140px;
+    right: 8px;
+    left: 8px;
+    width: auto;
+    max-height: 50vh;
+  }
+  #info-panel.hidden { transform: translateY(100%); }
+  #info-btn { top: 10px; right: 8px; width: 28px; height: 28px; font-size: 0.75rem; }
+
   #legend { display: none; }
-  #timeline { height: 90px; padding: 8px 12px; }
-  #timeline-readout { min-width: auto; font-size: 0.8rem; }
+
+  #timeline {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    height: 80px;
+    padding: 8px 10px 6px;
+    gap: 6px;
+  }
+  #timeline-readout { min-width: auto; font-size: 0.75rem; gap: 4px; }
   #event-count { display: none; }
+  #play-btn { width: 30px; height: 30px; font-size: 0.75rem; }
+  #speed-label { font-size: 0.6rem; }
+  .thumb { width: 14px; height: 14px; }
+}
+
+@media (max-width: 480px) {
+  #filters-panel { width: 140px; }
+  .chip-group { grid-template-columns: 1fr; }
+  #title-bar .subtitle { display: none; }
 }
