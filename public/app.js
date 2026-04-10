@@ -74,9 +74,14 @@
     $thumbStart.style.left = `${pStart}%`;
     $thumbEnd.style.left = `${pEnd}%`;
     $highlight.style.left = `${pStart}%`;
-    $highlight.style.width = `${pEnd - pStart}%`;
+    $highlight.style.width = `${Math.max(0.5, pEnd - pStart)}%`;
     $readoutStart.textContent = fmtYear(rangeStart);
     $readoutEnd.textContent = fmtYear(rangeEnd);
+
+    // When the range is narrow (e.g. during play), merge thumbs visually
+    const narrow = (pEnd - pStart) < 3;
+    $thumbStart.classList.toggle("merged", narrow);
+    $thumbEnd.classList.toggle("merged", narrow);
   }
 
   function getTrackX(e) {
@@ -196,6 +201,8 @@
     zoom: 2.2,
     minZoom: 1.5,
     maxZoom: 14,
+    maxBounds: [[-180, -85], [180, 85]],
+    renderWorldCopies: false,
     attributionControl: true,
   });
 
@@ -204,6 +211,29 @@
   /* ── Filter chips ─────────────────────────────────────────────── */
   function buildTypeFilters() {
     const $group = document.getElementById("type-filters");
+
+    // Select all / none toggle buttons
+    const $toggleRow = document.getElementById("filter-toggle");
+    const $selectAll = document.createElement("button");
+    $selectAll.className = "filter-action";
+    $selectAll.textContent = "All";
+    $selectAll.addEventListener("click", () => {
+      Object.keys(TYPE_COLOURS).forEach((t) => activeTypes.add(t));
+      syncChipStates();
+      applyFilters();
+    });
+    const $selectNone = document.createElement("button");
+    $selectNone.className = "filter-action";
+    $selectNone.textContent = "None";
+    $selectNone.addEventListener("click", () => {
+      activeTypes.clear();
+      syncChipStates();
+      applyFilters();
+    });
+    $toggleRow.appendChild($selectAll);
+    $toggleRow.appendChild($selectNone);
+
+    // Individual type chips
     Object.keys(TYPE_COLOURS).forEach((type) => {
       const btn = document.createElement("button");
       btn.className = "chip active";
@@ -214,18 +244,28 @@
       btn.addEventListener("click", () => {
         if (activeTypes.has(type)) {
           activeTypes.delete(type);
-          btn.classList.remove("active");
-          btn.style.background = "transparent";
-          btn.style.color = TYPE_COLOURS[type];
         } else {
           activeTypes.add(type);
-          btn.classList.add("active");
-          btn.style.background = TYPE_COLOURS[type];
-          btn.style.color = "#fff";
         }
+        syncChipStates();
         applyFilters();
       });
       $group.appendChild(btn);
+    });
+  }
+
+  function syncChipStates() {
+    document.querySelectorAll("#type-filters .chip").forEach((btn) => {
+      const type = btn.dataset.type;
+      if (activeTypes.has(type)) {
+        btn.classList.add("active");
+        btn.style.background = TYPE_COLOURS[type];
+        btn.style.color = "#fff";
+      } else {
+        btn.classList.remove("active");
+        btn.style.background = "transparent";
+        btn.style.color = TYPE_COLOURS[type];
+      }
     });
   }
 
@@ -330,6 +370,14 @@
     let tagsHTML = '<div class="label">Tags</div><div class="value">';
     (ev.tags || []).forEach((t) => { tagsHTML += `<span class="tag">${t}</span>`; });
     tagsHTML += "</div>";
+
+    // Wikipedia link
+    const wikiQuery = encodeURIComponent(ev.canonical_name);
+    tagsHTML += `<div style="margin-top:10px"><a class="wiki-link" href="https://en.wikipedia.org/w/index.php?search=${wikiQuery}" target="_blank" rel="noopener">Read more on Wikipedia &rarr;</a></div>`;
+
+    // Source
+    tagsHTML += `<div class="source-note">Source: ${ev.source_dataset === "manual" ? "Curated from scholarly sources" : ev.source_dataset}</div>`;
+
     document.getElementById("detail-sources").innerHTML = tagsHTML;
   }
 
@@ -584,6 +632,14 @@
       $detailPanel.classList.add("hidden");
       document.getElementById("era-presets").style.display = "";
     }
+  });
+
+  /* ── Info panel ────────────────────────────────────────────────── */
+  document.getElementById("info-btn").addEventListener("click", () => {
+    document.getElementById("info-panel").classList.toggle("hidden");
+  });
+  document.getElementById("info-close").addEventListener("click", () => {
+    document.getElementById("info-panel").classList.add("hidden");
   });
 
   /* ── Boot ─────────────────────────────────────────────────────── */

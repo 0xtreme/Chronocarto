@@ -33,6 +33,7 @@
   <aside id="filters-panel" aria-label="Filters">
     <details open>
       <summary>Conflict Type</summary>
+      <div id="filter-toggle"></div>
       <div class="chip-group" id="type-filters"></div>
     </details>
     <details>
@@ -98,6 +99,33 @@
     <div class="legend-row"><span class="swatch" style="background:var(--c-raid)"></span> Raid</div>
     <div class="legend-row"><span class="swatch" style="background:var(--c-succession)"></span> Succession</div>
   </div>
+
+  <!-- ── About / Sources ─────────────────────────────────────────── -->
+  <button id="info-btn" aria-label="About &amp; Sources" title="About &amp; Sources">i</button>
+  <aside id="info-panel" class="hidden" aria-label="About">
+    <button id="info-close" aria-label="Close">&times;</button>
+    <h2>About Chronocarto</h2>
+    <p>A spatiotemporal atlas of human conflict. Scrub through 5,000 years of history and watch wars bloom and recede across geography.</p>
+    <h3>Data Sources</h3>
+    <p>This dataset is curated from established scholarly and historical sources including:</p>
+    <ul>
+      <li><strong>UCDP/PRIO</strong> &mdash; Uppsala Conflict Data Program (modern conflicts, 1946&ndash;present)</li>
+      <li><strong>Correlates of War</strong> &mdash; Interstate and civil wars (1816&ndash;present)</li>
+      <li><strong>Brecke Conflict Catalog</strong> &mdash; Historical conflicts (1400&ndash;present)</li>
+      <li><strong>Seshat Databank</strong> &mdash; Deep history conflicts</li>
+      <li><strong>Wikipedia / scholarly literature</strong> &mdash; Individual battle and war records</li>
+    </ul>
+    <p>Casualty figures are shown as ranges reflecting scholarly uncertainty. Dates marked "approximate" or "disputed" indicate limited historical precision.</p>
+    <h3>Controls</h3>
+    <ul>
+      <li><strong>Timeline</strong> &mdash; Drag the thumbs or the highlighted range</li>
+      <li><strong>Play</strong> &mdash; Animates a 100-year window through time (Space)</li>
+      <li><strong>Arrow keys</strong> &mdash; Step timeline (Shift for bigger steps)</li>
+      <li><strong>Click a circle</strong> &mdash; View conflict details</li>
+      <li><strong>Era presets</strong> &mdash; Quick jump to a period</li>
+    </ul>
+    <p class="info-footer">Built by Praveen &middot; Easyrun</p>
+  </aside>
 
   <script src="app.js"></script>
 </body>
