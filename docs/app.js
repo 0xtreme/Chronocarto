@@ -175,7 +175,7 @@
     style: {
       version: 8,
       name: "Chronocarto Dark",
-      glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
+      glyphs: "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
       sources: {
         "carto-dark": {
           type: "raster",
@@ -450,6 +450,9 @@
     map.addSource("conflicts", {
       type: "geojson",
       data: filteredGeoJSON,
+      cluster: true,
+      clusterMaxZoom: 6,
+      clusterRadius: 50,
     });
 
     // Heatmap layer — always visible, fades at high zoom
@@ -458,6 +461,7 @@
       type: "heatmap",
       source: "conflicts",
       maxzoom: 9,
+      filter: ["!", ["has", "point_count"]],
       paint: {
         "heatmap-weight": [
           "interpolate", ["linear"],
@@ -501,12 +505,68 @@
       },
     });
 
-    // Circle layer — visible from zoom 2, fully opaque by zoom 4
+    // Cluster circles — visible at low zoom
+    map.addLayer({
+      id: "conflicts-cluster",
+      type: "circle",
+      source: "conflicts",
+      filter: ["has", "point_count"],
+      paint: {
+        "circle-color": [
+          "step", ["get", "point_count"],
+          "rgba(233, 69, 96, 0.7)",   // < 10
+          10, "rgba(230, 126, 34, 0.75)", // 10-50
+          50, "rgba(245, 166, 35, 0.8)",  // 50-200
+          200, "rgba(255, 200, 50, 0.85)", // 200+
+        ],
+        "circle-radius": [
+          "step", ["get", "point_count"],
+          14,    // < 10
+          10, 20,  // 10-50
+          50, 28,  // 50-200
+          200, 36, // 200+
+        ],
+        "circle-stroke-width": 2,
+        "circle-stroke-color": "rgba(255,255,255,0.3)",
+      },
+    });
+
+    // Cluster count labels
+    map.addLayer({
+      id: "conflicts-cluster-count",
+      type: "symbol",
+      source: "conflicts",
+      filter: ["has", "point_count"],
+      layout: {
+        "text-field": ["get", "point_count_abbreviated"],
+        "text-size": 12,
+        "text-font": ["Open Sans Regular"],
+      },
+      paint: {
+        "text-color": "#ffffff",
+        "text-halo-color": "rgba(0,0,0,0.4)",
+        "text-halo-width": 1,
+      },
+    });
+
+    // Click cluster → zoom in
+    map.on("click", "conflicts-cluster", async (e) => {
+      const features = map.queryRenderedFeatures(e.point, { layers: ["conflicts-cluster"] });
+      const clusterId = features[0].properties.cluster_id;
+      const src = map.getSource("conflicts");
+      const zoom = await src.getClusterExpansionZoom(clusterId);
+      map.easeTo({ center: features[0].geometry.coordinates, zoom: zoom + 1 });
+    });
+
+    map.on("mouseenter", "conflicts-cluster", () => { map.getCanvas().style.cursor = "pointer"; });
+    map.on("mouseleave", "conflicts-cluster", () => { map.getCanvas().style.cursor = ""; });
+
+    // Individual circle layer — unclustered points
     map.addLayer({
       id: "conflicts-circle",
       type: "circle",
       source: "conflicts",
-      minzoom: 2,
+      filter: ["!", ["has", "point_count"]],
       paint: {
         "circle-radius": [
           "interpolate", ["linear"], ["zoom"],
@@ -539,6 +599,7 @@
       type: "symbol",
       source: "conflicts",
       minzoom: 5,
+      filter: ["!", ["has", "point_count"]],
       layout: {
         "text-field": ["get", "name"],
         "text-size": [
@@ -551,6 +612,7 @@
         "text-anchor": "top",
         "text-max-width": 12,
         "text-allow-overlap": false,
+        "text-font": ["Open Sans Regular"],
       },
       paint: {
         "text-color": "#d0d0d8",
@@ -564,7 +626,7 @@
       },
     });
 
-    // Click → detail
+    // Click → detail (unclustered only)
     map.on("click", "conflicts-circle", (e) => {
       const props = e.features[0].properties;
       const ev = allEvents.find((d) => d.event_id === props.id);
